@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Iris Control Center Application
-=======
-# Iris Control Center Front-End Application
->>>>>>> d75b49f... Update README.md
 
 ## Technology Stack
 * Latest ReactJS version (SPA library with virtual DOM support)
