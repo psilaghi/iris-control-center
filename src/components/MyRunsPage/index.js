@@ -1,5 +1,28 @@
 import * as React from 'react';
 import ApiClient from '../apiClient';
+import ReactTable from "react-table";
+import "react-table/react-table.css";
+import './style.css';
+
+const tableColumns = [{
+  Header: "ID",
+  accessor: "id"
+}, {
+  Header: "Build",
+  accessor: "build"
+}, {
+  Header: "Channel",
+  accessor: "channel"
+}, {
+  Header: "Failed",
+  accessor: "failed"
+}, {
+  Header: "Total",
+  accessor: "total"
+}, {
+  Header: "Version",
+  accessor: "version"
+}];
 
 class MyRunsPage extends React.Component {
   constructor(props) {
@@ -17,15 +40,14 @@ class MyRunsPage extends React.Component {
   
   render() {
     return ( 
-      <div>
+      <div className="page">
         <h1>My runs</h1>
-        <div>
-          {this.state.runs.map(run => (
-            <div key={run.id}>
-              {`${run.id} --- build: ${run.build} --- channel: ${run.channel} --- failed: ${run.failed} --- total: ${run.total} --- version: ${run.version}`}
-            </div>
-          ))}
-        </div>
+        <ReactTable
+          data={this.state.runs}
+          columns={tableColumns}
+          defaultPageSize={10}
+          className="-striped -highlight"
+        />
       </div>
     )     
   }
