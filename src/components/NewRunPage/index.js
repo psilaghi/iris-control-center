@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-function StartNewRunPage() {
+function NewRunPage() {
   return (
     <h1>Start new run</h1>
   );
 }
 
-export default StartNewRunPage;
+export default NewRunPage;

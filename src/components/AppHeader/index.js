@@ -7,11 +7,11 @@ function AppHeader(props) {
       <nav>
         <ul>
           <li>
-            <NavLink to="/myruns">My Runs</NavLink>      
+            <NavLink to="/runs">Runs</NavLink>      
           </li>
 
           <li>
-            <NavLink to="/startnewrun">Start New Run</NavLink>      
+            <NavLink to="/runs/new">New Run</NavLink>      
           </li>
         </ul>
       </nav>
