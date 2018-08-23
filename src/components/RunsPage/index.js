@@ -1,12 +1,16 @@
 import * as React from 'react';
 import ApiClient from '../apiClient';
-import ReactTable from "react-table";
-import "react-table/react-table.css";
+import ReactTable from 'react-table';
+import 'react-table/react-table.css';
 import './style.css';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 const tableColumns = [{
   Header: "ID",
-  accessor: "id"
+  accessor: "id",
+  Cell: row => (<Link to={{ pathname: `/runs/${row.value}/`}}>{row.value}</Link>)
 }, {
   Header: "Build",
   accessor: "build"
@@ -22,9 +26,18 @@ const tableColumns = [{
 }, {
   Header: "Version",
   accessor: "version"
+}, {
+  Header: "Delete",
+  id: "action",
+  accessor: data => data.id,
+  Cell: row => (
+    <button onClick={() => alert(`./delete?${row.value}`)}>
+      <FontAwesomeIcon icon={faTrash} size="lg" /> Delete
+    </button>
+  )
 }];
 
-class MyRunsPage extends React.Component {
+class RunsPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {runs: []};
@@ -53,4 +66,4 @@ class MyRunsPage extends React.Component {
   }
 }
 
-export default MyRunsPage;
+export default RunsPage;
