@@ -30,6 +30,16 @@ class ApiClient {
     )
     .then(this.parseResponse);
   }
+
+  delete(url) {
+    return fetch(
+      url,
+      initRequest({
+        method: 'DELETE'
+      })
+    )
+    .then(this.parseResponse);
+    }
 };
 
 export default new ApiClient();
