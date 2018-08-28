@@ -54,14 +54,14 @@ class RunsPage extends React.Component {
       accessor: data => data.id,
       Cell: row => (
         <div>
-          <button onClick={() => this.handleDelete(row.value)}>
-            <FontAwesomeIcon icon={faTrash} size="lg" /> Delete
+          <button className="btn">
+            <Link to={{ pathname: `/runs/${row.value}/`}}>
+              <FontAwesomeIcon icon={faEye} size="lg" />
+            </Link>
           </button>
 
-          <button>
-            <Link to={{ pathname: `/runs/${row.value}/`}}>
-              <FontAwesomeIcon icon={faEye} size="lg" /> View
-            </Link>
+          <button className="btn btn-danger" onClick={() => this.handleDelete(row.value)}>
+            <FontAwesomeIcon icon={faTrash} size="lg" />
           </button>
         </div>
       )
