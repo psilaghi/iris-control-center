@@ -6,6 +6,7 @@ import './style.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 const TABLE_COLUMNS = [{
   Header: "ID",
@@ -43,19 +44,27 @@ class RunsPage extends React.Component {
   }
 
   handleDelete = (id) => {
-    ApiClient.delete(`/delete?id=${id}`);
+    ApiClient.delete(`/delete?${id}`);
     this.setState({runs: this.state.runs.filter(run => run.id !== id)});
 
   }
 
   _getColumns = () => [...TABLE_COLUMNS, {
-      Header: "Delete",
+      Header: "Actions",
       id: "action",
       accessor: data => data.id,
       Cell: row => (
-        <button onClick={() => this.handleDelete(row.value)}>
-          <FontAwesomeIcon icon={faTrash} size="lg" /> Delete
-        </button>
+        <div>
+          <button onClick={() => this.handleDelete(row.value)}>
+            <FontAwesomeIcon icon={faTrash} size="lg" /> Delete
+          </button>
+
+          <button>
+            <Link to={{ pathname: `/runs/${row.value}/`}}>
+              <FontAwesomeIcon icon={faEye} size="lg" /> View
+            </Link>
+          </button>
+        </div>
       )
     }
   ]
