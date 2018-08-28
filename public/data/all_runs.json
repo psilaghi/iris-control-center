@@ -1,0 +1,94 @@
+{
+ "runs": [
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 0, 
+   "id": "20180828125850", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 1, 
+   "id": "20180828130248", 
+   "locale": "en-US", 
+   "total": 14, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 0, 
+   "id": "20180828130803", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 0, 
+   "id": "20180828130847", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 0, 
+   "id": "20180828130930", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 0, 
+   "id": "20180828131006", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 1, 
+   "id": "20180828131049", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 0, 
+   "id": "20180828131120", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 0, 
+   "id": "20180828131201", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }, 
+  {
+   "build": "20180807170231", 
+   "channel": "release", 
+   "failed": 0, 
+   "id": "20180828131237", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "61.0.2"
+  }
+ ]
+}
