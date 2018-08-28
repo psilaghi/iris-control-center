@@ -21,6 +21,9 @@ const TABLE_COLUMNS = [{
   Header: "Failed",
   accessor: "failed"
 }, {
+  Header: "Locale",
+  accessor: "locale"
+}, {
   Header: "Total",
   accessor: "total"
 }, {
@@ -35,11 +38,7 @@ class RunsPage extends React.Component {
   }
 
   componentDidMount() {
-    ApiClient.get('/data/runs.json').then(response => {
-      let parsedResponse = [];
-      Object.keys(response).map(id => parsedResponse.push({id: id, ...response[id]}));
-      this.setState({runs: parsedResponse});
-    });
+    ApiClient.get('/data/all_runs.json').then(response => this.setState({runs: response.runs}));
   }
 
   handleDelete = (id) => {
