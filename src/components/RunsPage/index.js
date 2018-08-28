@@ -43,7 +43,7 @@ class RunsPage extends React.Component {
   }
 
   handleDelete = (id) => {
-    ApiClient.delete(`/delete?${id}`);
+    ApiClient.get(`/delete?${id}`);
     this.setState({runs: this.state.runs.filter(run => run.id !== id)});
 
   }
