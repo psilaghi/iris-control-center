@@ -1,0 +1,96 @@
+{
+ "email": {
+  "default": "false", 
+  "type": "bool", 
+  "value": [
+   "true", 
+   "false"
+  ]
+ }, 
+ "firefox": {
+  "default": "release", 
+  "type": "str", 
+  "value": [
+   "local", 
+   "release", 
+   "esr", 
+   "beta", 
+   "nightly"
+  ]
+ }, 
+ "highlight": {
+  "default": "false", 
+  "type": "bool", 
+  "value": [
+   "true", 
+   "false"
+  ]
+ }, 
+ "level": {
+  "default": "INFO", 
+  "type": "str", 
+  "value": [
+   "CRITICAL", 
+   "ERROR", 
+   "WARNING", 
+   "INFO", 
+   "DEBUG"
+  ]
+ }, 
+ "locale": {
+  "default": "en-us", 
+  "type": "str", 
+  "value": [
+   "en-us"
+  ]
+ }, 
+ "mouse": {
+  "default": "0.5", 
+  "type": "float", 
+  "value": [
+   "0.0", 
+   "0.5", 
+   "1.0", 
+   "2.0"
+  ]
+ }, 
+ "override": {
+  "default": "false", 
+  "type": "bool", 
+  "value": [
+   "true", 
+   "false"
+  ]
+ }, 
+ "port": {
+  "default": "2000", 
+  "type": "int", 
+  "value": [
+   "2000"
+  ]
+ }, 
+ "report": {
+  "default": "false", 
+  "type": "bool", 
+  "value": [
+   "true", 
+   "false"
+  ]
+ }, 
+ "rerun": {
+  "default": "false", 
+  "type": "bool", 
+  "value": [
+   "true", 
+   "false"
+  ]
+ }, 
+ "save": {
+  "default": "false", 
+  "type": "bool", 
+  "value": [
+   "true", 
+   "false"
+  ]
+ }
+}

@@ -11,25 +11,32 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 const TABLE_COLUMNS = [{
   Header: "ID",
   accessor: "id",
-  Cell: row => (<Link to={{ pathname: `/runs/${row.value}/`}}>{row.value}</Link>)
+  Cell: row => (<Link to={{ pathname: `/runs/${row.value}/`}}>{row.value}</Link>),
+  className: "table__cell"
 }, {
   Header: "Build",
-  accessor: "build"
+  accessor: "build",
+  className: "table__cell"
 }, {
   Header: "Channel",
-  accessor: "channel"
+  accessor: "channel",
+  className: "table__cell"
 }, {
   Header: "Failed",
-  accessor: "failed"
+  accessor: "failed",
+  className: "table__cell"
 }, {
   Header: "Locale",
-  accessor: "locale"
+  accessor: "locale",
+  className: "table__cell"
 }, {
   Header: "Total",
-  accessor: "total"
+  accessor: "total",
+  className: "table__cell"
 }, {
   Header: "Version",
-  accessor: "version"
+  accessor: "version",
+  className: "table__cell"
 }];
 
 class RunsPage extends React.Component {
@@ -54,22 +61,23 @@ class RunsPage extends React.Component {
       accessor: data => data.id,
       Cell: row => (
         <div>
-          <button className="btn">
+          <button className="btn table__cell-btn">
             <Link to={{ pathname: `/runs/${row.value}/`}}>
               <FontAwesomeIcon icon={faEye} size="lg" />
             </Link>
           </button>
 
-          <button className="btn btn-danger" onClick={() => this.handleDelete(row.value)}>
+          <button className="btn btn-danger table__cell-btn" onClick={() => this.handleDelete(row.value)}>
             <FontAwesomeIcon icon={faTrash} size="lg" />
           </button>
         </div>
-      )
+      ),
+      className: "table__cell table__cell--centered"
     }
   ]
-   
+
   render() {
-    return ( 
+    return (
       <div className="page">
         <h1>My runs</h1>
         <ReactTable
@@ -79,7 +87,7 @@ class RunsPage extends React.Component {
           className="-striped -highlight"
         />
       </div>
-    )     
+    )
   }
 }
 
