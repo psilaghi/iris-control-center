@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-areas:
+    "top top"
+    "left right"
+    "bottom bottom";
+  grid-gap: 30px;
+}
+
+.grid-left {
+  grid-area: left;
+  padding: 20px;
+}
+
+.grid-right {
+  grid-area: right;
+  padding: 20px;
+}
+
+.grid-bottom {
+  grid-area: bottom;
+}
+
+.grid-top {
+  grid-area: top;
+}
