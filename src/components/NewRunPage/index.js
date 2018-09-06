@@ -63,6 +63,10 @@ class NewRunPage extends React.Component {
     console.log(this.state.newRun);
   }
 
+  handleCancel = () => {
+    ApiClient.get('/cancel');
+  }
+
 
 
   render() {
@@ -70,7 +74,8 @@ class NewRunPage extends React.Component {
       <div className="page">
         <h1>Start new run</h1>
         <div className="grid-top">
-          <button type="button" className="btn" onClick={this.handleSubmit}>Go</button>
+          <button type="button" className="btn header-button" onClick={this.handleSubmit}>Go</button>
+          <button type="button" className="btn header-button" onClick={this.handleCancel}>Cancel</button>
         </div>
 
         <div className="grid">
@@ -225,21 +230,6 @@ class NewRunPage extends React.Component {
                     onChange={this.handleCheckboxChange}
                   />
                   {LABELS.report}
-                </label>
-              </div>
-            )}
-
-            {this.state.args.rerun && (
-              <div className="checkbox">
-                <label>
-                  <input
-                    name="rerun"
-                    className="form-check-input"
-                    type="checkbox"
-                    checked={this.state.newRun.rerun}
-                    onChange={this.handleCheckboxChange}
-                  />
-                  {LABELS.rerun}
                 </label>
               </div>
             )}

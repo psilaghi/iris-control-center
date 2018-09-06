@@ -24,3 +24,7 @@
 .grid-top {
   grid-area: top;
 }
+
+.header-button {
+  margin: 0 10px;
+}
