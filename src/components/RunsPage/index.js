@@ -12,31 +12,31 @@ const TABLE_COLUMNS = [{
   Header: "ID",
   accessor: "id",
   Cell: row => (<Link to={{ pathname: `/runs/${row.value}/`}}>{row.value}</Link>),
-  className: "table__cell"
+  className: "table__cell table__cell--centered"
 }, {
   Header: "Build",
   accessor: "build",
-  className: "table__cell"
+  className: "table__cell table__cell--centered"
 }, {
   Header: "Channel",
   accessor: "channel",
-  className: "table__cell"
+  className: "table__cell table__cell--centered"
 }, {
   Header: "Failed",
   accessor: "failed",
-  className: "table__cell"
+  className: "table__cell table__cell--centered"
 }, {
   Header: "Locale",
   accessor: "locale",
-  className: "table__cell"
+  className: "table__cell table__cell--centered"
 }, {
   Header: "Total",
   accessor: "total",
-  className: "table__cell"
+  className: "table__cell table__cell--centered"
 }, {
   Header: "Version",
   accessor: "version",
-  className: "table__cell"
+  className: "table__cell table__cell--centered"
 }];
 
 class RunsPage extends React.Component {

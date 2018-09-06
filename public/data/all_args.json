@@ -41,7 +41,20 @@
   "default": "en-us", 
   "type": "str", 
   "value": [
-   "en-us"
+   "en-US", 
+   "zh-CN", 
+   "es-ES", 
+   "de", 
+   "fr", 
+   "ru", 
+   "ar", 
+   "ko", 
+   "pt-PT", 
+   "vi", 
+   "pl", 
+   "tr", 
+   "ro", 
+   "ja"
   ]
  }, 
  "mouse": {
