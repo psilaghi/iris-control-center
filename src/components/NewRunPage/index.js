@@ -2,20 +2,6 @@ import * as React from 'react';
 import ApiClient from '../apiClient';
 import './style.css';
 
-const LABELS = {
-  email: 'Email',
-  firefox: 'Channel',
-  highlight: 'Highlight',
-  level: 'Debug level',
-  locale: 'Locale',
-  mouse: 'Mouse speed',
-  override: 'Override',
-  port: 'Port',
-  report: 'Report',
-  rerun: 'Rerun',
-  save: 'Save'
-};
-
 class NewRunPage extends React.Component {
   constructor(props) {
     super(props);
@@ -67,8 +53,6 @@ class NewRunPage extends React.Component {
     ApiClient.get('/cancel');
   }
 
-
-
   render() {
     return (
       <div className="page">
@@ -82,7 +66,7 @@ class NewRunPage extends React.Component {
           <div className="grid-left">
             {this.state.args.firefox && (
               <div className="form-group row">
-                <label htmlFor="firefox" className="col-sm-2">{LABELS.firefox}</label>
+                <label htmlFor="firefox" className="col-sm-2">{this.state.args.firefox.label}</label>
                 <div className="col-sm-2">
                   <select
                     className="form-control form-control-sm"
@@ -101,7 +85,7 @@ class NewRunPage extends React.Component {
 
             {this.state.args.level && (
               <div className="form-group row">
-                <label htmlFor="level" className="col-sm-2">{LABELS.level}</label>
+                <label htmlFor="level" className="col-sm-2">{this.state.args.level.label}</label>
                 <div className="col-sm-2">
                   <select
                     className="form-control form-control-sm"
@@ -120,7 +104,7 @@ class NewRunPage extends React.Component {
 
             {this.state.args.locale && (
               <div className="form-group row">
-                <label htmlFor="locale" className="col-sm-2">{LABELS.locale}</label>
+                <label htmlFor="locale" className="col-sm-2">{this.state.args.locale.label}</label>
                 <div className="col-sm-2">
                   <select
                     className="form-control form-control-sm"
@@ -139,7 +123,7 @@ class NewRunPage extends React.Component {
 
             {this.state.args.mouse && (
               <div className="form-group row">
-                <label htmlFor="mouse" className="col-sm-2">{LABELS.mouse}</label>
+                <label htmlFor="mouse" className="col-sm-2">{this.state.args.mouse.label}</label>
                 <div className="col-sm-2">
                   <select
                     className="form-control form-control-sm"
@@ -158,7 +142,7 @@ class NewRunPage extends React.Component {
 
             {this.state.args.port && (
               <div className="form-group row">
-                <label htmlFor="port" className="col-sm-2">{LABELS.port}</label>
+                <label htmlFor="port" className="col-sm-2">{this.state.args.port.label}</label>
                 <div className="col-sm-2">
                   <input
                     type="text"
@@ -184,7 +168,7 @@ class NewRunPage extends React.Component {
                     checked={this.state.newRun.email}
                     onChange={this.handleCheckboxChange}
                   />
-                  {LABELS.email}
+                  {this.state.args.email.label}
                 </label>
               </div>
             )}
@@ -199,7 +183,7 @@ class NewRunPage extends React.Component {
                     checked={this.state.newRun.highlight}
                     onChange={this.handleCheckboxChange}
                   />
-                  {LABELS.highlight}
+                  {this.state.args.highlight.label}
                 </label>
               </div>
             )}
@@ -214,7 +198,7 @@ class NewRunPage extends React.Component {
                     checked={this.state.newRun.override}
                     onChange={this.handleCheckboxChange}
                   />
-                  {LABELS.override}
+                  {this.state.args.override.label}
                 </label>
               </div>
             )}
@@ -229,7 +213,7 @@ class NewRunPage extends React.Component {
                     checked={this.state.newRun.report}
                     onChange={this.handleCheckboxChange}
                   />
-                  {LABELS.report}
+                  {this.state.args.report.label}
                 </label>
               </div>
             )}
@@ -244,7 +228,7 @@ class NewRunPage extends React.Component {
                     checked={this.state.newRun.save}
                     onChange={this.handleCheckboxChange}
                   />
-                  {LABELS.save}
+                  {this.state.args.save.label}
                 </label>
               </div>
             )}

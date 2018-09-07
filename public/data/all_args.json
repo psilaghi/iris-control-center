@@ -1,6 +1,7 @@
 {
  "email": {
   "default": "false", 
+  "label": "Email results", 
   "type": "bool", 
   "value": [
    "true", 
@@ -9,6 +10,7 @@
  }, 
  "firefox": {
   "default": "release", 
+  "label": "", 
   "type": "str", 
   "value": [
    "local", 
@@ -20,6 +22,7 @@
  }, 
  "highlight": {
   "default": "false", 
+  "label": "Debug using highlighting", 
   "type": "bool", 
   "value": [
    "true", 
@@ -28,6 +31,7 @@
  }, 
  "level": {
   "default": "INFO", 
+  "label": "", 
   "type": "str", 
   "value": [
    "CRITICAL", 
@@ -39,6 +43,7 @@
  }, 
  "locale": {
   "default": "en-us", 
+  "label": "", 
   "type": "str", 
   "value": [
    "en-US", 
@@ -59,6 +64,7 @@
  }, 
  "mouse": {
   "default": "0.5", 
+  "label": "", 
   "type": "float", 
   "value": [
    "0.0", 
@@ -69,6 +75,7 @@
  }, 
  "override": {
   "default": "false", 
+  "label": "Run disabled tests", 
   "type": "bool", 
   "value": [
    "true", 
@@ -77,6 +84,7 @@
  }, 
  "port": {
   "default": "2000", 
+  "label": "", 
   "type": "int", 
   "value": [
    "2000"
@@ -84,14 +92,7 @@
  }, 
  "report": {
   "default": "false", 
-  "type": "bool", 
-  "value": [
-   "true", 
-   "false"
-  ]
- }, 
- "rerun": {
-  "default": "false", 
+  "label": "Create TestRail report", 
   "type": "bool", 
   "value": [
    "true", 
@@ -100,6 +101,7 @@
  }, 
  "save": {
   "default": "false", 
+  "label": "Save profiles to disk", 
   "type": "bool", 
   "value": [
    "true", 
