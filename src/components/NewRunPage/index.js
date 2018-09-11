@@ -1,6 +1,7 @@
 import * as React from 'react';
 import ApiClient from '../apiClient';
 import './style.css';
+require('bootstrap');
 
 class NewRunPage extends React.Component {
   constructor(props) {
@@ -34,7 +35,7 @@ class NewRunPage extends React.Component {
       }
     });
   }
-  
+
   handleCheckboxChange = (event) => {
     this.setState({
       newRun: {
@@ -43,7 +44,7 @@ class NewRunPage extends React.Component {
       }
     });
   }
-  
+
   handleSubmit = () => {
     // ApiClient.post('url',this.state.newRun);
     console.log(this.state.newRun);
@@ -234,8 +235,78 @@ class NewRunPage extends React.Component {
             )}
           </div>
 
-          <div className="grid-bottom">
-          all tests section
+          <div id="accordion" className="grid-bottom">
+            {Object.keys(this.state.tests).map(categoryName => (
+              <div className="card" key={categoryName}>
+                <div className="card-header" id={`label-${categoryName}`}>
+                  <h5 className="mb-0">
+                    <button className="btn btn-link" data-toggle="collapse" data-target={`#${categoryName}`} aria-expanded="true" aria-controls={categoryName}>
+                      <div className="checkbox">
+                        <label>
+                          <input
+                            name="categoryName"
+                            className="form-check-input"
+                            type="checkbox"
+                            // checked={categoryName}
+                            // onChange={this.handleCheckboxChange}
+                            // onClick={event => event.preventDefault()}
+                          />
+                          {categoryName}
+                        </label>
+                      </div>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id={categoryName} className="collapse show" aria-labelledby={`label-${categoryName}`} data-parent="#accordion">
+                  <div className="card-body">
+                    {this.state.tests[categoryName].map(test => (
+                      <div key={test.name}>
+                        <div id="accordion">
+                            <div className="card" key={test.name}>
+                              <div className="card-header" id={`label-${test.name}`}>
+                                <h5 className="mb-0">
+                                  <button className="btn btn-link" data-toggle="collapse" data-target={`#${test.name}`} aria-expanded="true" aria-controls={test.name}>
+                                    <div className="checkbox">
+                                      <label>
+                                        <input
+                                          name={test.name}
+                                          className="form-check-input"
+                                          type="checkbox"
+                                          // checked={categoryName}
+                                          // onChange={this.handleCheckboxChange}
+                                          // onClick={event => event.preventDefault()}
+                                        />
+                                        {test.name}
+                                        Details:
+                                      </label>
+                                    </div>
+                                  </button>
+                                </h5>
+                              </div>
+
+                              <div id={test.name} className="collapse show" aria-labelledby={`label-${test.name}`} data-parent="#accordion">
+                                <div className="card-body">
+                                  <div>{test.blocked_by}</div>
+                                  <div>{test.channel}</div>
+                                  <div>{test.enabled}</div>
+                                  <div>{test.fx_version}</div>
+                                  <div>{test.locale}</div>
+                                  <div>{test.meta}</div>
+                                  <div>{test.module}</div>
+                                  <div>{test.platform}</div>
+                                  <div>{test.test_case_id}</div>
+                                  <div>{test.test_suite_id}</div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
