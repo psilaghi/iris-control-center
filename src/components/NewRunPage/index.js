@@ -71,8 +71,7 @@ class NewRunPage extends React.Component {
   }
 
   handleSubmit = () => {
-    // ApiClient.post('url',this.state.newRun);
-    console.log(this.state.newRun);
+    ApiClient.post('/go',this.state.newRun);
   }
 
   handleCancel = () => {
