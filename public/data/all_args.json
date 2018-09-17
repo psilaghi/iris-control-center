@@ -9,8 +9,8 @@
   ]
  }, 
  "firefox": {
-  "default": "release", 
-  "label": "", 
+  "default": "beta", 
+  "label": "Firefox", 
   "type": "str", 
   "value": [
    "local", 
@@ -31,7 +31,7 @@
  }, 
  "level": {
   "default": "INFO", 
-  "label": "", 
+  "label": "Debug level", 
   "type": "str", 
   "value": [
    "CRITICAL", 
@@ -43,7 +43,7 @@
  }, 
  "locale": {
   "default": "en-us", 
-  "label": "", 
+  "label": "Locale", 
   "type": "str", 
   "value": [
    "en-US", 
@@ -64,7 +64,7 @@
  }, 
  "mouse": {
   "default": "0.5", 
-  "label": "", 
+  "label": "Mouse speed", 
   "type": "float", 
   "value": [
    "0.0", 
@@ -84,7 +84,7 @@
  }, 
  "port": {
   "default": "2000", 
-  "label": "", 
+  "label": "Local web server port", 
   "type": "int", 
   "value": [
    "2000"
