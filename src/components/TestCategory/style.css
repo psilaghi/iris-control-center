@@ -1,0 +1,5 @@
+.arrow-icon {
+    margin: 0 10px;
+  }
+
+.details:nth-child(even){background-color: #f2f2f2;}
