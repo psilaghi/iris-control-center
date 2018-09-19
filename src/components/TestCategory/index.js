@@ -2,6 +2,10 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { Collapse, CardBody, Card } from 'reactstrap';
 import TestItem from './TestItem';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import './style.css';
 
 class TestCategory extends React.Component {
   constructor(props) {
@@ -20,7 +24,7 @@ class TestCategory extends React.Component {
   }
 
   toggleCollapse = (event) => {
-    if (event.target === event.currentTarget) {
+    if (event.target.type !== 'checkbox') {
       this.setState({
         expanded: !this.state.expanded
       });
@@ -44,7 +48,10 @@ class TestCategory extends React.Component {
             checked={this.props.selectedTests.length === this.props.tests.length}
             onChange={this.handleChange}
           />
-          {this.props.name}
+          <FontAwesomeIcon className="arrow-icon" icon={this.state.expanded ? faChevronDown : faChevronRight} />
+          <span>
+            {this.props.name}
+          </span>
         </div>
 
         <Collapse isOpen={this.state.expanded}>
