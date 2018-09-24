@@ -1,10 +1,11 @@
 .grid {
   display: grid;
   grid-template-areas:
-    "top top"
-    "left right"
-    "bottom bottom";
+    "top top top"
+    "left center right"
+    "bottom bottom bottom";
   grid-gap: 30px;
+  /* grid-template-columns: 50% 15% 35%; */
 }
 
 .grid-left {
@@ -14,6 +15,11 @@
 
 .grid-right {
   grid-area: right;
+  padding: 20px;
+}
+
+.grid-center {
+  grid-area: center;
   padding: 20px;
 }
 

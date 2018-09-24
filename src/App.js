@@ -7,23 +7,19 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
-import RunsPage from './components/RunsPage';
-import NewRunPage from './components/NewRunPage';
+import MainPage from './components/MainPage';
 import RunDetailsPage from './components/RunDetailsPage';
-import AppHeader from './components/AppHeader';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div>
-          <AppHeader />
           <Switch>
-            <Redirect exact={true} from="/" to="/runs" />
-            <Route path="/runs" exact component={RunsPage} />
-            <Route path="/runs/new" exact component={NewRunPage} />
-            <Route path="/runs/:id" component={RunDetailsPage} />
-            <Redirect to="/runs" />
+            <Redirect exact={true} from="/" to="/index" />
+            <Route path="/index" exact component={MainPage} />
+            <Route path="/index/:id" component={RunDetailsPage} />
+            <Redirect to="/index" />
           </Switch>
         </div>
       </Router>

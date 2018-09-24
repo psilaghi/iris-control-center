@@ -11,7 +11,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 const TABLE_COLUMNS = [{
   Header: "ID",
   accessor: "id",
-  Cell: row => (<Link to={{ pathname: `/runs/${row.value}/`}}>{row.value}</Link>),
+  Cell: row => (<Link to={`/index/${row.value}`}>{row.value}</Link>),
   className: "table__cell table__cell--centered"
 }, {
   Header: "Build",
@@ -61,11 +61,9 @@ class RunsPage extends React.Component {
       accessor: data => data.id,
       Cell: row => (
         <div>
-          <button className="btn table__cell-btn">
-            <Link to={{ pathname: `/runs/${row.value}/`}}>
-              <FontAwesomeIcon icon={faEye} size="lg" />
-            </Link>
-          </button>
+          <Link className="btn btn-primary table__cell-btn" role="button" to={`/index/${row.value}`}>
+            <FontAwesomeIcon icon={faEye} size="lg" />
+          </Link>
 
           <button className="btn btn-danger table__cell-btn" onClick={() => this.handleDelete(row.value)}>
             <FontAwesomeIcon icon={faTrash} size="lg" />
@@ -79,12 +77,13 @@ class RunsPage extends React.Component {
   render() {
     return (
       <div className="page">
-        <h1>My runs</h1>
+        <h4>Iris runs:</h4>
         <ReactTable
           data={this.state.runs}
           columns={this._getColumns()}
           defaultPageSize={10}
           className="-striped -highlight"
+          defaultPageSize={5}
         />
       </div>
     )
