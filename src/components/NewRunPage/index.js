@@ -103,14 +103,14 @@ class NewRunPage extends React.Component {
   render() {
     return (
       <div className="page">
-        <h1>Start new run</h1>
+        <h4>Start new run:</h4>
         <div className="grid-top">
           <button type="button" className="btn btn-primary header-button" onClick={this.handleSubmit}>Go</button>
           <button type="button" className="btn btn-secondary header-button" onClick={this.handleCancel}>Cancel</button>
         </div>
 
         <div className="grid">
-          <div className="grid-left">
+          <div className="grid-right">
             {DropdownItems.map(item =>
               this.state.args[item] && (
                 <Select
@@ -134,7 +134,7 @@ class NewRunPage extends React.Component {
             )}
           </div>
 
-          <div className="grid-right">
+          <div className="grid-center">
             {CheckboxItems.map(item =>
               this.state.args[item] && (
                 <Checkbox
@@ -148,7 +148,7 @@ class NewRunPage extends React.Component {
             )}
           </div>
 
-          <div className="grid-bottom">
+          <div className="grid-left">
             {Object.keys(this.state.tests).map(categoryName => (
               <TestCategory
                 key={categoryName}
