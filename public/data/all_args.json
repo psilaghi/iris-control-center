@@ -9,14 +9,14 @@
   ]
  }, 
  "firefox": {
-  "default": "beta", 
+  "default": "latest-beta", 
   "label": "Firefox", 
   "type": "str", 
   "value": [
    "local", 
-   "release", 
-   "esr", 
-   "beta", 
+   "latest", 
+   "latest-esr", 
+   "latest-beta", 
    "nightly"
   ]
  }, 
@@ -29,20 +29,8 @@
    "false"
   ]
  }, 
- "level": {
-  "default": "INFO", 
-  "label": "Debug level", 
-  "type": "str", 
-  "value": [
-   "CRITICAL", 
-   "ERROR", 
-   "WARNING", 
-   "INFO", 
-   "DEBUG"
-  ]
- }, 
  "locale": {
-  "default": "en-us", 
+  "default": "en-US", 
   "label": "Locale", 
   "type": "str", 
   "value": [

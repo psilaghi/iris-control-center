@@ -4,7 +4,7 @@ export const InputWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-shrink: 0;
-  padding: 10px 0;
+  padding: 0 0 10px 0;
 `;
 
 export const InputLabel = styled.label`

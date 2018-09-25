@@ -10,7 +10,7 @@ import TestCategory from '../TestCategory';
 
 const DropdownItems = [
  'firefox',
- 'level',
+//  'level',
  'locale',
  'mouse'
 ];
@@ -110,7 +110,7 @@ class NewRunPage extends React.Component {
         </div>
 
         <div className="grid">
-          <div className="grid-right">
+          <div className="grid-center">
             {DropdownItems.map(item =>
               this.state.args[item] && (
                 <Select
@@ -124,17 +124,17 @@ class NewRunPage extends React.Component {
               )
             )}
 
-            {this.state.args.port && (
+            {/* {this.state.args.port && (
               <Input
                 label={this.state.args.port.label}
                 name="port"
                 value={this.state.newRun.port}
                 onChange={this.handleChange}
               />
-            )}
+            )} */}
           </div>
 
-          <div className="grid-center">
+          <div className="grid-right">
             {CheckboxItems.map(item =>
               this.state.args[item] && (
                 <Checkbox
