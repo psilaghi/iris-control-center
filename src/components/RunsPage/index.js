@@ -11,7 +11,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 const TABLE_COLUMNS = [{
   Header: "ID",
   accessor: "id",
-  Cell: row => (<Link to={`/runs/${row.value}`}>{row.value}</Link>),
+  Cell: row => (<Link to={`/run?${row.value}`}>{row.value}</Link>),
   className: "table__cell table__cell--centered"
 }, {
   Header: "Build",
@@ -61,7 +61,7 @@ class RunsPage extends React.Component {
       accessor: data => data.id,
       Cell: row => (
         <div>
-          <Link className="btn btn-primary table__cell-btn" role="button" to={`/runs/${row.value}`}>
+          <Link className="btn btn-primary table__cell-btn" role="button" to={`/run?${row.value}`}>
             <FontAwesomeIcon icon={faEye} size="lg" />
           </Link>
 
