@@ -1,9 +1,32 @@
 import * as React from 'react';
+import ApiClient from '../apiClient';
+import { withRouter } from 'react-router-dom';
+import DetailsSection from './DetailsSection';
 
-function RunDetailsPage() {
-  return (
-    <h1>Run details</h1>
-  );
+class RunDetailsPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {details: {}};
+  }
+
+  componentDidMount() {
+    ApiClient.get(`/data/${this.props.match.params.id}/run.json`).then(response => this.setState({details: response}));
+  }
+
+  render() {
+    return (
+      <div className="page">
+        <h4>Run details:</h4>
+        {Object.keys(this.state.details).map(detail => (
+          <DetailsSection 
+            data={this.state.details[detail]} 
+            key={detail}
+            name={detail}
+          />
+        ))}
+      </div>
+    )
+  }
 }
 
-export default RunDetailsPage;
+export default withRouter(RunDetailsPage);
