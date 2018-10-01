@@ -18,7 +18,7 @@ class App extends Component {
           <Switch>
             <Redirect exact={true} from="/" to="/index" />
             <Route path="/index" exact component={MainPage} />
-            <Route path="/run?:id" component={RunDetailsPage} />
+            <Route path="/runs/:id" component={RunDetailsPage} />
             <Redirect to="/index" />
           </Switch>
         </div>
