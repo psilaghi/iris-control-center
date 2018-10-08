@@ -4,9 +4,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -27,7 +27,7 @@
     "ja"
    ], 
    "meta": "This test case adds links using 'CTRL/CMD' + 'ENTER' keys.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\add_links_keyboard_shortcuts.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\add_links_keyboard_shortcuts.py", 
    "name": "add_links_keyboard_shortcuts", 
    "package": "awesomebar", 
    "platform": [
@@ -35,6 +35,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "119484", 
    "test_suite_id": "1902"
   }, 
@@ -42,9 +43,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -65,7 +66,7 @@
     "ja"
    ], 
    "meta": "This test case checks the awesomebar search after user input.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\awesomebar_search_after_user_input.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\awesomebar_search_after_user_input.py", 
    "name": "awesomebar_search_after_user_input", 
    "package": "awesomebar", 
    "platform": [
@@ -73,6 +74,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108255", 
    "test_suite_id": "1902"
   }, 
@@ -80,9 +82,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -103,7 +105,7 @@
     "ja"
    ], 
    "meta": "This test case checks the position of the bookmark drop down for a highlighted link.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\bookmark_a_highlighted_link.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\bookmark_a_highlighted_link.py", 
    "name": "bookmark_a_highlighted_link", 
    "package": "awesomebar", 
    "platform": [
@@ -111,6 +113,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "117526", 
    "test_suite_id": "1902"
   }, 
@@ -118,9 +121,48 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case verifies that changing the search engines positions the change is applied in awesome bar too.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\change_search_engine_positions.py", 
+   "name": "change_search_engine_positions", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108262", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -141,7 +183,7 @@
     "ja"
    ], 
    "meta": "This test case deletes history from the URL bar completion list.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\delete_history_from_url_bar_completion_list.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\delete_history_from_url_bar_completion_list.py", 
    "name": "delete_history_from_url_bar_completion_list", 
    "package": "awesomebar", 
    "platform": [
@@ -149,6 +191,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "117530", 
    "test_suite_id": "1902"
   }, 
@@ -156,9 +199,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -179,13 +222,15 @@
     "ja"
    ], 
    "meta": "This test case disables one-off searches from the awesomebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\disable_one_off_searches_from_awesomebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\disable_one_off_searches_from_awesomebar.py", 
    "name": "disable_one_off_searches_from_awesomebar", 
    "package": "awesomebar", 
    "platform": [
     "linux", 
+    "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108258", 
    "test_suite_id": "1902"
   }, 
@@ -193,9 +238,48 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case disables search suggestions in awesomebar.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\disable_search_suggestions.py", 
+   "name": "disable_search_suggestions", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108263", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -216,13 +300,15 @@
     "ja"
    ], 
    "meta": "This test case disables the web search in the awesomebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\disable_web_search_awesomebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\disable_web_search_awesomebar.py", 
    "name": "disable_web_search_awesomebar", 
    "package": "awesomebar", 
    "platform": [
     "linux", 
+    "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108254", 
    "test_suite_id": "1902"
   }, 
@@ -230,9 +316,165 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case checks the 'Drag and Drop within the awesomebar' option, if it searches for the dropped string.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\drag_and_drop_within_awesomebar.py", 
+   "name": "drag_and_drop_within_awesomebar", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "117524", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case clicks on a search result while the settings gear is focused.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\focus_settings_gear_and_click_a_search_result.py", 
+   "name": "focus_settings_gear_and_click_a_search_result", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108264", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case performs key navigation in the URL drop-down in high contrast theme.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\key_navigation_high_contrast_theme.py", 
+   "name": "key_navigation_high_contrast_theme", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "120136", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case checks that more search engines can be added and are well displayed on one-off searches bar.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\more_search_engine_can_be_added.py", 
+   "name": "more_search_engine_can_be_added", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108261", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -253,7 +495,7 @@
     "ja"
    ], 
    "meta": "This test case checks that mouse position does not affect a search from awesomebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\mouse_position_does_not_affect_a_search.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\mouse_position_does_not_affect_a_search.py", 
    "name": "mouse_position_does_not_affect_a_search", 
    "package": "awesomebar", 
    "platform": [
@@ -261,6 +503,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108256", 
    "test_suite_id": "1902"
   }, 
@@ -268,9 +511,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -291,7 +534,7 @@
     "ja"
    ], 
    "meta": "This test case checks that navigation to a page without entering the 'http://' protocol works correctly.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\navigate_page_without_entering_http_protocol.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\navigate_page_without_entering_http_protocol.py", 
    "name": "navigate_page_without_entering_http_protocol", 
    "package": "awesomebar", 
    "platform": [
@@ -299,16 +542,90 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "117529", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "1488708", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case navigates through one-off searches using the keyboard keys.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\navigate_through_one_off_searches_using_keyboard_keys.py", 
+   "name": "navigate_through_one_off_searches_using_keyboard_keys", 
+   "package": "awesomebar", 
+   "platform": [
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108267", 
    "test_suite_id": "1902"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": false, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case checks that the one-off search feature does not affect the search engine preferences after updating the Firefox version.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\one_off_preferences_persist_after_firefox_update.py", 
+   "name": "one_off_preferences_persist_after_firefox_update", 
+   "package": "awesomebar", 
+   "platform": [], 
+   "tags": "", 
+   "test_case_id": "108269", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -329,7 +646,7 @@
     "ja"
    ], 
    "meta": "This test case checks that one-off searches are displayed in the awesomebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\one_off_searches_displayed_in_awesomebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\one_off_searches_displayed_in_awesomebar.py", 
    "name": "one_off_searches_displayed_in_awesomebar", 
    "package": "awesomebar", 
    "platform": [
@@ -337,6 +654,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108248", 
    "test_suite_id": "1902"
   }, 
@@ -344,9 +662,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -367,7 +685,7 @@
     "ja"
    ], 
    "meta": "This test case perform one-offs searches in private browsing.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\one_off_searches_in_private_window.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\one_off_searches_in_private_window.py", 
    "name": "one_off_searches_in_private_window", 
    "package": "awesomebar", 
    "platform": [
@@ -375,6 +693,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108253", 
    "test_suite_id": "1902"
   }, 
@@ -382,9 +701,87 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case opens an URL in a new tab when the 'browser.search.openintab' preference is set to true.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\open_url_in_tab.py", 
+   "name": "open_url_in_tab", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "117527", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case perform a search by keyboard only.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\perform_a_search_by_keyboard_only.py", 
+   "name": "perform_a_search_by_keyboard_only", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108268", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -405,7 +802,7 @@
     "ja"
    ], 
    "meta": "This test case perform a search using an one-off focusing on the autocomplete drop-down.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\perform_a_search_using_an_one_off.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\perform_a_search_using_an_one_off.py", 
    "name": "perform_a_search_using_an_one_off", 
    "package": "awesomebar", 
    "platform": [
@@ -413,6 +810,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108249", 
    "test_suite_id": "1902"
   }, 
@@ -420,9 +818,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -443,7 +841,7 @@
     "ja"
    ], 
    "meta": "This test case checks the one-off search bar and the Settings gear after removing checks for each search engine from the Search Settings.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\remove_checks_from_search_engines.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\remove_checks_from_search_engines.py", 
    "name": "remove_checks_from_search_engines", 
    "package": "awesomebar", 
    "platform": [
@@ -451,6 +849,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108259", 
    "test_suite_id": "1902"
   }, 
@@ -458,9 +857,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -481,7 +880,7 @@
     "ja"
    ], 
    "meta": "This test case checks the 'Paste & Go' option if CRLF exists at the end of clipboard url.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\right_click_paste_and_go_location_bar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\right_click_paste_and_go_location_bar.py", 
    "name": "right_click_paste_and_go_location_bar", 
    "package": "awesomebar", 
    "platform": [
@@ -489,6 +888,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "117523", 
    "test_suite_id": "1902"
   }, 
@@ -496,9 +896,48 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case navigates through the awesomebar suggestions/one-offs/settings gear using the right/left keys.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\right_left_keys_in_awesomebar.py", 
+   "name": "right_left_keys_in_awesomebar", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108277", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -519,7 +958,7 @@
     "ja"
    ], 
    "meta": "This test case verifies that 'Search in New Tab' option works correctly using an one-off.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\search_in_new_tab_using_one_off_context_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\search_in_new_tab_using_one_off_context_menu.py", 
    "name": "search_in_new_tab_using_one_off_context_menu", 
    "package": "awesomebar", 
    "platform": [
@@ -527,6 +966,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108250", 
    "test_suite_id": "1902"
   }, 
@@ -534,9 +974,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -557,7 +997,7 @@
     "ja"
    ], 
    "meta": "This test case performs a search using one-offs while maximizing/minimizing the browser's window.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\search_using_one_offs_while_maximizing_or_minimizing_window.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\search_using_one_offs_while_maximizing_or_minimizing_window.py", 
    "name": "search_using_one_offs_while_maximizing_or_minimizing_window", 
    "package": "awesomebar", 
    "platform": [
@@ -565,6 +1005,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108252", 
    "test_suite_id": "1902"
   }, 
@@ -572,9 +1013,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -595,7 +1036,7 @@
     "ja"
    ], 
    "meta": "This test case verifies that 'Set as Default Search Engine' option works correctly using an one-off.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\set_as_default_search_engine_using_one_off_context_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\set_as_default_search_engine_using_one_off_context_menu.py", 
    "name": "set_as_default_search_engine_using_one_off_context_menu", 
    "package": "awesomebar", 
    "platform": [
@@ -603,16 +1044,91 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108251", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "1297382", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": false, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case checks that the Settings gear is displayed and can be accessed.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\settings_gear_is_displayed_and_can_be_accessed.py", 
+   "name": "settings_gear_is_displayed_and_can_be_accessed", 
+   "package": "awesomebar", 
+   "platform": [], 
+   "tags": "", 
+   "test_case_id": "108260", 
    "test_suite_id": "1902"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case checks that telemetry data is collected for one-offs from new tab.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\telemetry_data_collected_for_one_offs_from_new_tab.py", 
+   "name": "telemetry_data_collected_for_one_offs_from_new_tab", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108274", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -633,14 +1149,55 @@
     "ja"
    ], 
    "meta": "This test case perform 2 selections at the same time.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\two_selections_at_the_same_time.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\two_selections_at_the_same_time.py", 
    "name": "two_selections_at_the_same_time", 
    "package": "awesomebar", 
    "platform": [
     "linux", 
+    "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "108257", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case checks that url bar properly unescapes ASCII url.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\url_bar_properly_unescapes_ascii_code.py", 
+   "name": "url_bar_properly_unescapes_ascii_code", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "118809", 
    "test_suite_id": "1902"
   }
  ], 
@@ -649,9 +1206,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -672,7 +1229,7 @@
     "ja"
    ], 
    "meta": "Tags can be added to bookmarks using the Bookmarks Sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\add_bookmark_tags_via_bookmark_sidebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\add_bookmark_tags_via_bookmark_sidebar.py", 
    "name": "add_bookmark_tags_via_bookmark_sidebar", 
    "package": "bookmark", 
    "platform": [
@@ -680,6 +1237,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4147", 
    "test_suite_id": "75"
   }, 
@@ -687,9 +1245,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -710,7 +1268,7 @@
     "ja"
    ], 
    "meta": "Tags can be added to bookmarks using the star-shaped button.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\add_bookmark_tags_via_library.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\add_bookmark_tags_via_library.py", 
    "name": "add_bookmark_tags_via_library", 
    "package": "bookmark", 
    "platform": [
@@ -718,6 +1276,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4146", 
    "test_suite_id": "75"
   }, 
@@ -725,9 +1284,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -748,7 +1307,7 @@
     "ja"
    ], 
    "meta": "Tags can be added to bookmarks using the star-shaped button.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\add_bookmark_tags_via_star_button.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\add_bookmark_tags_via_star_button.py", 
    "name": "add_bookmark_tags_via_star_button", 
    "package": "bookmark", 
    "platform": [
@@ -756,6 +1315,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4145", 
    "test_suite_id": "75"
   }, 
@@ -763,47 +1323,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
-   ], 
-   "enabled": true, 
-   "fx_version": "all", 
-   "locale": [
-    "en-US", 
-    "zh-CN", 
-    "es-ES", 
-    "de", 
-    "fr", 
-    "ru", 
-    "ar", 
-    "ko", 
-    "pt-PT", 
-    "vi", 
-    "pl", 
-    "tr", 
-    "ro", 
-    "ja"
-   ], 
-   "meta": "This is a test case that checks if the search bookmark from Bookmarks Toolbar function works.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmarks_toolbar_search.pyc", 
-   "name": "bookmarks_toolbar_search", 
-   "package": "bookmark", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
-   "test_case_id": "116972", 
-   "test_suite_id": "75"
-  }, 
-  {
-   "blocked_by": "", 
-   "channel": [
-    "beta", 
-    "esr", 
-    "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -824,7 +1346,7 @@
     "ja"
    ], 
    "meta": "Websites can be bookmarked from private browsing.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_from_private_browsing.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_from_private_browsing.py", 
    "name": "bookmark_from_private_browsing", 
    "package": "bookmark", 
    "platform": [
@@ -832,6 +1354,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4155", 
    "test_suite_id": "75"
   }, 
@@ -839,9 +1362,48 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Websites can be bookmarked from a private window.", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_from_private_window.py", 
+   "name": "bookmark_from_private_window", 
+   "package": "bookmark", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "4176", 
+   "test_suite_id": "75"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -862,7 +1424,7 @@
     "ja"
    ], 
    "meta": "Links can be bookmarked via context menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_link_via_context_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_link_via_context_menu.py", 
    "name": "bookmark_link_via_context_menu", 
    "package": "bookmark", 
    "platform": [
@@ -870,6 +1432,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4143", 
    "test_suite_id": "75"
   }, 
@@ -877,9 +1440,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -900,7 +1463,7 @@
     "ja"
    ], 
    "meta": "Websites can be bookmarked via keyboard shortcut.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_keyboard_shortcut.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_keyboard_shortcut.py", 
    "name": "bookmark_via_keyboard_shortcut", 
    "package": "bookmark", 
    "platform": [
@@ -908,6 +1471,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4088", 
    "test_suite_id": "75"
   }, 
@@ -915,9 +1479,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -938,7 +1502,7 @@
     "ja"
    ], 
    "meta": "Websites can be bookmarked via star-shaped button.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_star_button.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_star_button.py", 
    "name": "bookmark_via_star_button", 
    "package": "bookmark", 
    "platform": [
@@ -946,6 +1510,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4087", 
    "test_suite_id": "75"
   }, 
@@ -953,9 +1518,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -976,7 +1541,7 @@
     "ja"
    ], 
    "meta": "Websites can be bookmarked by dragging a URL from a *.txt file.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_text_file_url.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_text_file_url.py", 
    "name": "bookmark_via_text_file_url", 
    "package": "bookmark", 
    "platform": [
@@ -984,6 +1549,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4144", 
    "test_suite_id": "75"
   }, 
@@ -991,9 +1557,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1014,7 +1580,7 @@
     "ja"
    ], 
    "meta": "Websites can be bookmarked via URL drag & drop onto the Bookmarks Sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_url_sidebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_url_sidebar.py", 
    "name": "bookmark_via_url_sidebar", 
    "package": "bookmark", 
    "platform": [
@@ -1022,6 +1588,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4092", 
    "test_suite_id": "75"
   }, 
@@ -1029,9 +1596,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1052,7 +1619,7 @@
     "ja"
    ], 
    "meta": "Websites can be bookmarked via URL drag & drop onto the Bookmarks Toolbar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_url_toolbar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_via_url_toolbar.py", 
    "name": "bookmark_via_url_toolbar", 
    "package": "bookmark", 
    "platform": [
@@ -1060,6 +1627,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4090", 
    "test_suite_id": "75"
   }, 
@@ -1067,9 +1635,87 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This is a test case that checks if the search bookmark from Bookmarks Toolbar function works.", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmarks_toolbar_search.py", 
+   "name": "bookmarks_toolbar_search", 
+   "package": "bookmark", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "116972", 
+   "test_suite_id": "75"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "The items from the Bookmarks Toolbar can be sorted by name.", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmarks_toolbar_sorted_by_name.py", 
+   "name": "bookmarks_toolbar_sorted_by_name", 
+   "package": "bookmark", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "4161", 
+   "test_suite_id": "75"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1090,7 +1736,7 @@
     "ja"
    ], 
    "meta": "The location of a bookmark can be changed.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\change_bookmark_location.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\change_bookmark_location.py", 
    "name": "change_bookmark_location", 
    "package": "bookmark", 
    "platform": [
@@ -1098,6 +1744,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4149", 
    "test_suite_id": "75"
   }, 
@@ -1105,9 +1752,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1128,7 +1775,7 @@
     "ja"
    ], 
    "meta": "The name of a bookmark can be changed.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\change_bookmark_name.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\change_bookmark_name.py", 
    "name": "change_bookmark_name", 
    "package": "bookmark", 
    "platform": [
@@ -1136,6 +1783,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4148", 
    "test_suite_id": "75"
   }, 
@@ -1143,9 +1791,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1166,7 +1814,7 @@
     "ja"
    ], 
    "meta": "Bookmark folders can be copied via context menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\copy_bookmark_folder.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\copy_bookmark_folder.py", 
    "name": "copy_bookmark_folder", 
    "package": "bookmark", 
    "platform": [
@@ -1174,6 +1822,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4151", 
    "test_suite_id": "75"
   }, 
@@ -1181,9 +1830,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1204,7 +1853,7 @@
     "ja"
    ], 
    "meta": "The Copy context menu option works properly.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\copy_context_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\copy_context_menu.py", 
    "name": "copy_context_menu", 
    "package": "bookmark", 
    "platform": [
@@ -1212,16 +1861,56 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4102", 
    "test_suite_id": "75"
   }, 
   {
-   "blocked_by": "https://netbeans.org/bugzilla/show_bug.cgi?id=256674", 
+   "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Bookmark folders can be copied via context menu.", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\cut_bookmark_folder.py", 
+   "name": "cut_bookmark_folder", 
+   "package": "bookmark", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "4151", 
+   "test_suite_id": "75"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1242,7 +1931,7 @@
     "ja"
    ], 
    "meta": "Cut context menu option works properly.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\cut_context_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\cut_context_menu.py", 
    "name": "cut_context_menu", 
    "package": "bookmark", 
    "platform": [
@@ -1250,6 +1939,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4152", 
    "test_suite_id": "75"
   }, 
@@ -1257,9 +1947,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1280,7 +1970,7 @@
     "ja"
    ], 
    "meta": "Bookmarks Sidebar can be enabled from the Bookmarks Menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\enable_bookmarks_sidebar_from_bookmarks_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\enable_bookmarks_sidebar_from_bookmarks_menu.py", 
    "name": "enable_bookmarks_sidebar_from_bookmarks_menu", 
    "package": "bookmark", 
    "platform": [
@@ -1288,6 +1978,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4091", 
    "test_suite_id": "75"
   }, 
@@ -1295,9 +1986,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1318,7 +2009,7 @@
     "ja"
    ], 
    "meta": "Bookmarks Toolbar can be enabled from the Bookmarks Menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\enable_bookmarks_toolbar_from_bookmarks_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\enable_bookmarks_toolbar_from_bookmarks_menu.py", 
    "name": "enable_bookmarks_toolbar_from_bookmarks_menu", 
    "package": "bookmark", 
    "platform": [
@@ -1326,6 +2017,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4089", 
    "test_suite_id": "75"
   }, 
@@ -1333,9 +2025,48 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Bookmarks can be exported to a HTML file.", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\export_bookmarks_to_html.py", 
+   "name": "export_bookmarks_to_html", 
+   "package": "bookmark", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "4153", 
+   "test_suite_id": "75"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "<=62", 
@@ -1356,7 +2087,7 @@
     "ja"
    ], 
    "meta": "Bookmarks can be loaded inside the Bookmarks Sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\load_bookmark_inside_the_sidebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\load_bookmark_inside_the_sidebar.py", 
    "name": "load_bookmark_inside_the_sidebar", 
    "package": "bookmark", 
    "platform": [
@@ -1364,6 +2095,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4162", 
    "test_suite_id": "75"
   }, 
@@ -1371,9 +2103,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1394,7 +2126,7 @@
     "ja"
    ], 
    "meta": "Bookmarks can be opened from Bookmarks menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\open_bookmark_from_bookmarks_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\open_bookmark_from_bookmarks_menu.py", 
    "name": "open_bookmark_from_bookmarks_menu", 
    "package": "bookmark", 
    "platform": [
@@ -1402,6 +2134,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4095", 
    "test_suite_id": "75"
   }, 
@@ -1409,9 +2142,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1432,7 +2165,7 @@
     "ja"
    ], 
    "meta": "Bookmarks can be opened from Bookmarks Toolbar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\open_bookmark_from_bookmarks_toolbar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\open_bookmark_from_bookmarks_toolbar.py", 
    "name": "open_bookmark_from_bookmarks_toolbar", 
    "package": "bookmark", 
    "platform": [
@@ -1440,6 +2173,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4093", 
    "test_suite_id": "75"
   }, 
@@ -1447,9 +2181,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1470,7 +2204,7 @@
     "ja"
    ], 
    "meta": "Bookmarks can be opened from the Bookmarks Library.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\open_bookmark_from_library.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\open_bookmark_from_library.py", 
    "name": "open_bookmark_from_library", 
    "package": "bookmark", 
    "platform": [
@@ -1478,6 +2212,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4097", 
    "test_suite_id": "75"
   }, 
@@ -1485,9 +2220,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1508,7 +2243,7 @@
     "ja"
    ], 
    "meta": "Bookmarks can be opened from the Bookmarks Sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\open_bookmark_from_sidebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\open_bookmark_from_sidebar.py", 
    "name": "open_bookmark_from_sidebar", 
    "package": "bookmark", 
    "platform": [
@@ -1516,6 +2251,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4094", 
    "test_suite_id": "75"
   }, 
@@ -1523,9 +2259,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1546,7 +2282,7 @@
     "ja"
    ], 
    "meta": "Bookmarks can be removed from Bookmarks menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\remove_bookmark_from_bookmarks_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\remove_bookmark_from_bookmarks_menu.py", 
    "name": "remove_bookmark_from_bookmarks_menu", 
    "package": "bookmark", 
    "platform": [
@@ -1554,6 +2290,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4101", 
    "test_suite_id": "75"
   }, 
@@ -1561,9 +2298,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1584,7 +2321,7 @@
     "ja"
    ], 
    "meta": "Bookmarks can be removed from the Bookmarks Library.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\remove_bookmark_from_library.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\remove_bookmark_from_library.py", 
    "name": "remove_bookmark_from_library", 
    "package": "bookmark", 
    "platform": [
@@ -1592,6 +2329,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4100", 
    "test_suite_id": "75"
   }, 
@@ -1599,9 +2337,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1622,7 +2360,7 @@
     "ja"
    ], 
    "meta": "Bookmarks can be removed from the Bookmarks Sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\remove_bookmark_from_sidebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\remove_bookmark_from_sidebar.py", 
    "name": "remove_bookmark_from_sidebar", 
    "package": "bookmark", 
    "platform": [
@@ -1630,18 +2368,17 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "4099", 
    "test_suite_id": "75"
-  }
- ], 
- "experiments": [
+  }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1661,27 +2398,139 @@
     "ro", 
     "ja"
    ], 
-   "meta": "This is a test for adding a website in the bookmarks section", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\amazon_bookmarks.pyc", 
-   "name": "amazon_bookmarks", 
-   "package": "experiments", 
+   "meta": "Specific tags can be removed from a bookmark", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\remove_tags_from_a_bookmark.py", 
+   "name": "remove_tags_from_a_bookmark", 
+   "package": "bookmark", 
    "platform": [
     "linux", 
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "4150", 
+   "test_suite_id": "75"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Searching for bookmarks from the Bookmarks Sidebar works properly.", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\search_bookmarks_from_bookmarks_sidebar.py", 
+   "name": "search_bookmarks_from_bookmarks_sidebar", 
+   "package": "bookmark", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "4104", 
+   "test_suite_id": "75"
+  }, 
+  {
+   "blocked_by": "1385754", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": false, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "The removal of a bookmark can be undone.", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\undo_bookmark_removal.py", 
+   "name": "undo_bookmark_removal", 
+   "package": "bookmark", 
+   "platform": [], 
+   "tags": "", 
+   "test_case_id": "4156", 
+   "test_suite_id": "75"
+  }, 
+  {
+   "blocked_by": "1385754", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": false, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "The removal of a bookmarks folder can be undone.", 
+   "module": "c:\\github\\iris\\iris\\tests\\bookmark\\undo_bookmarks_folder_removal.py", 
+   "name": "undo_bookmarks_folder_removal", 
+   "package": "bookmark", 
+   "platform": [], 
+   "tags": "", 
+   "test_case_id": "4157", 
+   "test_suite_id": "75"
+  }
+ ], 
+ "experiments": [
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -1700,14 +2549,11 @@
     "ja"
    ], 
    "meta": "This is a test of browser back/forward", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\back_forward.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\back_forward.py", 
    "name": "back_forward", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -1715,11 +2561,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -1738,14 +2584,11 @@
     "ja"
    ], 
    "meta": "This is a test of basic URL navigation via awesomebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\basic_url.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\basic_url.py", 
    "name": "basic_url", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -1753,49 +2596,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
-   "fx_version": "all", 
-   "locale": [
-    "en-US", 
-    "zh-CN", 
-    "es-ES", 
-    "de", 
-    "fr", 
-    "ru", 
-    "ar", 
-    "ko", 
-    "pt-PT", 
-    "vi", 
-    "pl", 
-    "tr", 
-    "ro", 
-    "ja"
-   ], 
-   "meta": "This is a test for clearing browser history", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\clear_history.pyc", 
-   "name": "clear_history", 
-   "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
-  }, 
-  {
-   "blocked_by": "", 
-   "channel": [
-    "beta", 
-    "esr", 
-    "nightly", 
-    "release"
-   ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -1814,14 +2619,11 @@
     "ja"
    ], 
    "meta": "This is a test for opening the first default topsite from TOP SITES list by clicking on it", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\click_topsite.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\click_topsite.py", 
    "name": "click_topsite", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -1829,11 +2631,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -1852,14 +2654,11 @@
     "ja"
    ], 
    "meta": "This test creates dynamic regions from patterns.", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\create_region.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\create_region.py", 
    "name": "create_region", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -1867,49 +2666,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
-   "fx_version": "all", 
-   "locale": [
-    "en-US", 
-    "zh-CN", 
-    "es-ES", 
-    "de", 
-    "fr", 
-    "ru", 
-    "ar", 
-    "ko", 
-    "pt-PT", 
-    "vi", 
-    "pl", 
-    "tr", 
-    "ro", 
-    "ja"
-   ], 
-   "meta": "This is a test of new tab preferences search", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\customize_new_tab.pyc", 
-   "name": "customize_new_tab", 
-   "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
-  }, 
-  {
-   "blocked_by": "", 
-   "channel": [
-    "beta", 
-    "esr", 
-    "nightly", 
-    "release"
-   ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -1928,14 +2689,11 @@
     "ja"
    ], 
    "meta": "This is a test that checks for an existing bookmark in a custom profile", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\custom_profile.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\custom_profile.py", 
    "name": "custom_profile", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -1943,11 +2701,46 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This is a test of new tab preferences search", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\customize_new_tab.py", 
+   "name": "customize_new_tab", 
+   "package": "experiments", 
+   "platform": [], 
+   "tags": "", 
+   "test_case_id": "", 
+   "test_suite_id": ""
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": false, 
    "fx_version": ">=62", 
    "locale": [
     "en-US", 
@@ -1965,15 +2758,12 @@
     "ro", 
     "ja"
    ], 
-   "meta": "This tests the ability to activate/deactivate the activity stream", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\deactivate_activity_stream.pyc", 
+   "meta": "This tests the ability to activate/deactivate the activity stream.", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\deactivate_activity_stream.py", 
    "name": "deactivate_activity_stream", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -1981,11 +2771,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -2004,14 +2794,11 @@
     "ja"
    ], 
    "meta": "This is an empty test case that does nothing", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\empty.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\empty.py", 
    "name": "empty", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "broken,test,sanity,123", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -2019,9 +2806,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2042,10 +2829,11 @@
     "ja"
    ], 
    "meta": "This is a test of creating various Firefox instances with arguments", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\launch_fx_args.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\launch_fx_args.py", 
    "name": "launch_fx_args", 
    "package": "experiments", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -2053,11 +2841,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -2076,14 +2864,11 @@
     "ja"
    ], 
    "meta": "This is a test for checking private browsing navigation", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\private_browsing_mode.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\private_browsing_mode.py", 
    "name": "private_browsing_mode", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -2091,11 +2876,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -2113,15 +2898,12 @@
     "ro", 
     "ja"
    ], 
-   "meta": "This is a test case that restarts the browser", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\restart_browser.pyc", 
+   "meta": "This is a test case that restarts the browser.", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\restart_browser.py", 
    "name": "restart_browser", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -2129,11 +2911,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -2152,14 +2934,11 @@
     "ja"
    ], 
    "meta": "This is a test for text search in page", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\search_in_page.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\search_in_page.py", 
    "name": "search_in_page", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -2167,11 +2946,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -2190,14 +2969,11 @@
     "ja"
    ], 
    "meta": "This is a subclassed test from basic_url", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\subclassed_one.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\subclassed_one.py", 
    "name": "subclassed_one", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -2205,11 +2981,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -2228,14 +3004,11 @@
     "ja"
    ], 
    "meta": "This is a subclassed test from subclassed_one", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\subclassed_two.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\subclassed_two.py", 
    "name": "subclassed_two", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -2243,11 +3016,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -2266,14 +3039,11 @@
     "ja"
    ], 
    "meta": "This is a test of a bunch of tabs", 
-   "module": "c:\\github\\iris\\iris\\tests\\experiments\\tabs.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\experiments\\tabs.py", 
    "name": "tabs", 
    "package": "experiments", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }
@@ -2283,9 +3053,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2306,7 +3076,7 @@
     "ja"
    ], 
    "meta": "Copy a History time range from the History sidebar and paste it to the Bookmarks toolbar, thenuse the 'Open All in Tabs' option on the saved bookmark.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\bookmarks_toolbar_open_all_in_tabs.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\bookmarks_toolbar_open_all_in_tabs.py", 
    "name": "bookmarks_toolbar_open_all_in_tabs", 
    "package": "history", 
    "platform": [
@@ -2314,16 +3084,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120117", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2344,7 +3115,7 @@
     "ja"
    ], 
    "meta": "Copy a website from the History sidebar and paste it to the Bookmarks toolbar, then open it.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\bookmarks_toolbar_open_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\bookmarks_toolbar_open_site.py", 
    "name": "bookmarks_toolbar_open_site", 
    "package": "history", 
    "platform": [
@@ -2352,16 +3123,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120128", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2382,7 +3154,7 @@
     "ja"
    ], 
    "meta": "Clear all the History.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\clear_all_history.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\clear_all_history.py", 
    "name": "clear_all_history", 
    "package": "history", 
    "platform": [
@@ -2390,16 +3162,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "172045", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2420,7 +3193,7 @@
     "ja"
    ], 
    "meta": "No sections selected in Clear Recent History window.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\clear_recent_history_no_selections.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\clear_recent_history_no_selections.py", 
    "name": "clear_recent_history_no_selections", 
    "package": "history", 
    "platform": [
@@ -2428,16 +3201,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "172046", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2458,7 +3232,7 @@
     "ja"
    ], 
    "meta": "Clear Recent History from a predefined time range.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\clear_recent_history_predefined_time_range.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\clear_recent_history_predefined_time_range.py", 
    "name": "clear_recent_history_predefined_time_range", 
    "package": "history", 
    "platform": [
@@ -2466,16 +3240,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "172044", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2496,7 +3271,7 @@
     "ja"
    ], 
    "meta": "Check that the 'Clear Recent History' window is displayed properly.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\clear_recent_history_window.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\clear_recent_history_window.py", 
    "name": "clear_recent_history_window", 
    "package": "history", 
    "platform": [
@@ -2504,16 +3279,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "172043", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2534,7 +3310,7 @@
     "ja"
    ], 
    "meta": "Open the History Menu and check the Recent History list.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu.py", 
    "name": "history_menu", 
    "package": "history", 
    "platform": [
@@ -2542,6 +3318,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "118799", 
    "test_suite_id": "2000"
   }, 
@@ -2549,9 +3326,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2572,7 +3349,7 @@
     "ja"
    ], 
    "meta": "Open a website from the Recent History list.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu_open_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu_open_site.py", 
    "name": "history_menu_open_site", 
    "package": "history", 
    "platform": [
@@ -2580,16 +3357,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "118807", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2610,7 +3388,7 @@
     "ja"
    ], 
    "meta": "Open a website from the Recent History list in a private window.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu_open_site_in_private_window.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu_open_site_in_private_window.py", 
    "name": "history_menu_open_site_in_private_window", 
    "package": "history", 
    "platform": [
@@ -2618,16 +3396,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "118806", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2648,7 +3427,7 @@
     "ja"
    ], 
    "meta": "Open the History sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar.py", 
    "name": "history_sidebar", 
    "package": "history", 
    "platform": [
@@ -2656,16 +3435,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "118811", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2686,7 +3466,7 @@
     "ja"
    ], 
    "meta": "This is a test that bookmarks a page from the History sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_bookmark_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_bookmark_site.py", 
    "name": "history_sidebar_bookmark_site", 
    "package": "history", 
    "platform": [
@@ -2694,16 +3474,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120123", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2724,7 +3505,7 @@
     "ja"
    ], 
    "meta": "This is a test that bookmarks a page from the History sidebar with custom settings.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_bookmark_site_custom_settings.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_bookmark_site_custom_settings.py", 
    "name": "history_sidebar_bookmark_site_custom_settings", 
    "package": "history", 
    "platform": [
@@ -2732,16 +3513,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120124", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2762,7 +3544,7 @@
     "ja"
    ], 
    "meta": "Copy a website from the History sidebar and paste it to the Bookmarks toolbar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_copy_site_to_bookmarks_toolbar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_copy_site_to_bookmarks_toolbar.py", 
    "name": "history_sidebar_copy_site_to_bookmarks_toolbar", 
    "package": "history", 
    "platform": [
@@ -2770,16 +3552,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120127", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2800,7 +3583,7 @@
     "ja"
    ], 
    "meta": "Copy a website from the History sidebar and paste it into the URL bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_copy_site_to_url_bar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_copy_site_to_url_bar.py", 
    "name": "history_sidebar_copy_site_to_url_bar", 
    "package": "history", 
    "platform": [
@@ -2808,16 +3591,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120129", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2838,7 +3622,7 @@
     "ja"
    ], 
    "meta": "Copy a History time range from the History sidebar and paste it to the Bookmarks toolbar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_copy_time_range.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_copy_time_range.py", 
    "name": "history_sidebar_copy_time_range", 
    "package": "history", 
    "platform": [
@@ -2846,16 +3630,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120125", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2876,7 +3661,7 @@
     "ja"
    ], 
    "meta": "Delete a page from the History sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_delete_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_delete_site.py", 
    "name": "history_sidebar_delete_site", 
    "package": "history", 
    "platform": [
@@ -2884,16 +3669,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120130", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2914,7 +3700,7 @@
     "ja"
    ], 
    "meta": "Delete a page from the History sidebar and verify it is still remembered in the URL bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_delete_site_verify_if_remembered.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_delete_site_verify_if_remembered.py", 
    "name": "history_sidebar_delete_site_verify_if_remembered", 
    "package": "history", 
    "platform": [
@@ -2922,16 +3708,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120131", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2952,7 +3739,7 @@
     "ja"
    ], 
    "meta": "Delete a time range from the History sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_delete_time_range.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_delete_time_range.py", 
    "name": "history_sidebar_delete_time_range", 
    "package": "history", 
    "platform": [
@@ -2960,16 +3747,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120134", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2990,7 +3778,7 @@
     "ja"
    ], 
    "meta": "Dismiss the search from the History sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_dismiss_search.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_dismiss_search.py", 
    "name": "history_sidebar_dismiss_search", 
    "package": "history", 
    "platform": [
@@ -2998,16 +3786,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "119442", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3028,7 +3817,7 @@
     "ja"
    ], 
    "meta": "Forget a page from the History sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_forget_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_forget_site.py", 
    "name": "history_sidebar_forget_site", 
    "package": "history", 
    "platform": [
@@ -3036,16 +3825,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120132", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3066,7 +3856,7 @@
     "ja"
    ], 
    "meta": "Forget a page from the History sidebar and verify it is not remembered in the URL bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_forget_site_verify_if_remembered.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_forget_site_verify_if_remembered.py", 
    "name": "history_sidebar_forget_site_verify_if_remembered", 
    "package": "history", 
    "platform": [
@@ -3074,16 +3864,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120131", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3104,7 +3895,7 @@
     "ja"
    ], 
    "meta": "This is a test for the 'Open All in Tabs' option from the History sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_all_in_tabs.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_all_in_tabs.py", 
    "name": "history_sidebar_open_all_in_tabs", 
    "package": "history", 
    "platform": [
@@ -3112,16 +3903,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "174035", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3142,7 +3934,7 @@
     "ja"
    ], 
    "meta": "This is a test that opens a page from the History sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site.py", 
    "name": "history_sidebar_open_site", 
    "package": "history", 
    "platform": [
@@ -3150,16 +3942,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "174037", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3180,7 +3973,7 @@
     "ja"
    ], 
    "meta": "This is a test that opens a page from the History sidebar using the 'Open' button from the context menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site_context_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site_context_menu.py", 
    "name": "history_sidebar_open_site_context_menu", 
    "package": "history", 
    "platform": [
@@ -3188,16 +3981,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "174038", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3218,7 +4012,7 @@
     "ja"
    ], 
    "meta": "This is a test that opens a page from the History sidebar using the 'Open in a New Tab' button from the context menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site_in_new_tab.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site_in_new_tab.py", 
    "name": "history_sidebar_open_site_in_new_tab", 
    "package": "history", 
    "platform": [
@@ -3226,16 +4020,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "174039", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3256,7 +4051,7 @@
     "ja"
    ], 
    "meta": "This is a test that opens a page from the History sidebar using the 'Open in a New Window' button from the context menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site_in_new_window.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site_in_new_window.py", 
    "name": "history_sidebar_open_site_in_new_window", 
    "package": "history", 
    "platform": [
@@ -3264,16 +4059,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120121", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3294,7 +4090,7 @@
     "ja"
    ], 
    "meta": "This is a test that opens a page from the History sidebar using the 'Open in a New Private Window' button from the context menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site_in_private_window.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_open_site_in_private_window.py", 
    "name": "history_sidebar_open_site_in_private_window", 
    "package": "history", 
    "platform": [
@@ -3302,6 +4098,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "120122", 
    "test_suite_id": "2000"
   }, 
@@ -3309,9 +4106,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3332,7 +4129,7 @@
     "ja"
    ], 
    "meta": "Search in History sidebar for an available website.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_search_available_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_search_available_site.py", 
    "name": "history_sidebar_search_available_site", 
    "package": "history", 
    "platform": [
@@ -3340,6 +4137,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "119440", 
    "test_suite_id": "2000"
   }, 
@@ -3347,9 +4145,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3370,7 +4168,7 @@
     "ja"
    ], 
    "meta": "Search in History sidebar for an unavailable website.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_search_unavailable_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_search_unavailable_site.py", 
    "name": "history_sidebar_search_unavailable_site", 
    "package": "history", 
    "platform": [
@@ -3378,6 +4176,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "119441", 
    "test_suite_id": "2000"
   }, 
@@ -3385,47 +4184,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
-   ], 
-   "enabled": true, 
-   "fx_version": "all", 
-   "locale": [
-    "en-US", 
-    "zh-CN", 
-    "es-ES", 
-    "de", 
-    "fr", 
-    "ru", 
-    "ar", 
-    "ko", 
-    "pt-PT", 
-    "vi", 
-    "pl", 
-    "tr", 
-    "ro", 
-    "ja"
-   ], 
-   "meta": "This is a test of the sorting options from the sidebar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sorting.pyc", 
-   "name": "history_sidebar_sorting", 
-   "package": "history", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
-   "test_case_id": "119443", 
-   "test_suite_id": "2000"
-  }, 
-  {
-   "blocked_by": "", 
-   "channel": [
-    "beta", 
-    "esr", 
-    "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3446,7 +4207,7 @@
     "ja"
    ], 
    "meta": "This is a test of the sorting options from the sidebar - By Date.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_date.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_date.py", 
    "name": "history_sidebar_sort_by_date", 
    "package": "history", 
    "platform": [
@@ -3454,16 +4215,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "119446", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3484,7 +4246,7 @@
     "ja"
    ], 
    "meta": "This is a test of the Sorting options from the sidebar - By Date and Site.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_date_and_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_date_and_site.py", 
    "name": "history_sidebar_sort_by_date_and_site", 
    "package": "history", 
    "platform": [
@@ -3492,16 +4254,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "119444", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3522,7 +4285,7 @@
     "ja"
    ], 
    "meta": "This is a test of the sorting options from the sidebar - By Last Visited.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_last_visited.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_last_visited.py", 
    "name": "history_sidebar_sort_by_last_visited", 
    "package": "history", 
    "platform": [
@@ -3530,16 +4293,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "119448", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3560,7 +4324,7 @@
     "ja"
    ], 
    "meta": "This is a test of the sorting options from the sidebar - By Most Visited.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_most_visited.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_most_visited.py", 
    "name": "history_sidebar_sort_by_most_visited", 
    "package": "history", 
    "platform": [
@@ -3568,16 +4332,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "119447", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3598,7 +4363,7 @@
     "ja"
    ], 
    "meta": "This is a test of the sorting options from the sidebar - By Site.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_site.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sort_by_site.py", 
    "name": "history_sidebar_sort_by_site", 
    "package": "history", 
    "platform": [
@@ -3606,16 +4371,56 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "119445", 
+   "test_suite_id": "2000"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This is a test of the sorting options from the sidebar.", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_sidebar_sorting.py", 
+   "name": "history_sidebar_sorting", 
+   "package": "history", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "119443", 
+   "test_suite_id": "2000"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3636,7 +4441,7 @@
     "ja"
    ], 
    "meta": "Open a website in the current tab and then check it is displayed in the Recent History list.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\open_site_in_current_tab.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\open_site_in_current_tab.py", 
    "name": "open_site_in_current_tab", 
    "package": "history", 
    "platform": [
@@ -3644,6 +4449,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "118800", 
    "test_suite_id": "2000"
   }, 
@@ -3651,9 +4457,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3674,7 +4480,7 @@
     "ja"
    ], 
    "meta": "Open a website in a new tab and then check it is displayed in the Recent History list.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\open_site_in_new_tab.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\open_site_in_new_tab.py", 
    "name": "open_site_in_new_tab", 
    "package": "history", 
    "platform": [
@@ -3682,6 +4488,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "120120", 
    "test_suite_id": "2000"
   }, 
@@ -3689,9 +4496,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3712,7 +4519,7 @@
     "ja"
    ], 
    "meta": "Open a website in a new window and then check it is displayed in the Recent History list.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\open_site_in_new_window.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\open_site_in_new_window.py", 
    "name": "open_site_in_new_window", 
    "package": "history", 
    "platform": [
@@ -3720,6 +4527,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "174040", 
    "test_suite_id": "2000"
   }, 
@@ -3727,9 +4535,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3750,7 +4558,7 @@
     "ja"
    ], 
    "meta": "Open a website in a private window and then check it is not displayed in the Recent History list.", 
-   "module": "c:\\github\\iris\\iris\\tests\\history\\open_site_in_private_window.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\open_site_in_private_window.py", 
    "name": "open_site_in_private_window", 
    "package": "history", 
    "platform": [
@@ -3758,6 +4566,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "174041", 
    "test_suite_id": "2000"
   }
@@ -3767,9 +4576,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3790,7 +4599,7 @@
     "ja"
    ], 
    "meta": "This is a test of the 'About Firefox' window controls", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\about_firefox_controls.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\about_firefox_controls.py", 
    "name": "about_firefox_controls", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -3798,54 +4607,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120465", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
-   ], 
-   "enabled": true, 
-   "fx_version": "all", 
-   "locale": [
-    "en-US", 
-    "zh-CN", 
-    "es-ES", 
-    "de", 
-    "fr", 
-    "ru", 
-    "ar", 
-    "ko", 
-    "pt-PT", 
-    "vi", 
-    "pl", 
-    "tr", 
-    "ro", 
-    "ja"
-   ], 
-   "meta": "This is a test case that checks that the upper corner browser controls work as expected", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\browser_controls_upper_corner.pyc", 
-   "name": "browser_controls_upper_corner", 
-   "package": "toolbars_window_controls", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
-  }, 
-  {
-   "blocked_by": "", 
-   "channel": [
-    "beta", 
-    "esr", 
-    "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -3866,20 +4638,60 @@
     "ja"
    ], 
    "meta": "This is a test case that checks that Browser Control Console work as expected", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\browser_control_console.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\browser_control_console.py", 
    "name": "browser_control_console", 
    "package": "toolbars_window_controls", 
    "platform": [], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "119481", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Browser controls work as expected.", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\browser_controls_upper_corner.py", 
+   "name": "browser_controls_upper_corner", 
+   "package": "toolbars_window_controls", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "119481", 
+   "test_suite_id": "1998"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3900,7 +4712,7 @@
     "ja"
    ], 
    "meta": "This is a test of the 'Confirm close multiple tabs' window controls", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\confirm_close_multiple_tabs_controls.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\confirm_close_multiple_tabs_controls.py", 
    "name": "confirm_close_multiple_tabs_controls", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -3908,16 +4720,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120468", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3938,7 +4751,7 @@
     "ja"
    ], 
    "meta": "This is a test of the Download dialog controls.", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\download_dialog_controls.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\download_dialog_controls.py", 
    "name": "download_dialog_controls", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -3946,16 +4759,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "118801", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3976,23 +4790,24 @@
     "ja"
    ], 
    "meta": "This is a test case that checks that the drag space can be activated properly", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\drag_space.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\drag_space.py", 
    "name": "drag_space", 
    "package": "toolbars_window_controls", 
    "platform": [
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "118184", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4013,7 +4828,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the Hamburger menu > Customize opens the customize page", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\hamburger_menu_customize.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\hamburger_menu_customize.py", 
    "name": "hamburger_menu_customize", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -4021,6 +4836,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4028,9 +4844,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4051,7 +4867,7 @@
     "ja"
    ], 
    "meta": "This is a test of the library window controls", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\library_controls.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\library_controls.py", 
    "name": "library_controls", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -4059,16 +4875,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120467", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4089,7 +4906,7 @@
     "ja"
    ], 
    "meta": "This is a test of the Print dialog controls.", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\print_dialog_controls.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\print_dialog_controls.py", 
    "name": "print_dialog_controls", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -4097,16 +4914,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "118804", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4127,7 +4945,7 @@
     "ja"
    ], 
    "meta": "This is a test of the Save Image dialog controls", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\save_image_controls.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\save_image_controls.py", 
    "name": "save_image_controls", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -4135,16 +4953,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "118803", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4165,7 +4984,7 @@
     "ja"
    ], 
    "meta": "This is a test of the sidebar controls", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\sidebar_controls.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\sidebar_controls.py", 
    "name": "sidebar_controls", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -4173,16 +4992,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "119466", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4203,7 +5023,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks if the Title Bar can be activated/deactivated properly from Customize menu", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\title_bar_activation.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\title_bar_activation.py", 
    "name": "title_bar_activation", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -4211,16 +5031,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "118183", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4240,8 +5061,8 @@
     "ro", 
     "ja"
    ], 
-   "meta": "This is a test case that checks if the Web Console controls work as expected", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\web_console_controls.pyc", 
+   "meta": "This is a test case that checks if the Web Console controls work as expected.", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\web_console_controls.py", 
    "name": "web_console_controls", 
    "package": "toolbars_window_controls", 
    "platform": [
@@ -4249,18 +5070,19 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "120137", 
+   "test_suite_id": "1998"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -4278,17 +5100,14 @@
     "ro", 
     "ja"
    ], 
-   "meta": "This is a test case that checks that Developer Toolbar controls work as expected", 
-   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\web_developer_menu.pyc", 
+   "meta": "This is a test case that checks that Developer Toolbar controls work as expected.", 
+   "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\web_developer_menu.py", 
    "name": "web_developer_menu", 
    "package": "toolbars_window_controls", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "platform": [], 
+   "tags": "", 
+   "test_case_id": "119483", 
+   "test_suite_id": "1998"
   }
  ], 
  "unit_tests": [
@@ -4296,9 +5115,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4319,7 +5138,7 @@
     "ja"
    ], 
    "meta": "This is a unit test to verify basic Firefox build info.", 
-   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\firefox_build_apis.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\firefox_build_apis.py", 
    "name": "firefox_build_apis", 
    "package": "unit_tests", 
    "platform": [
@@ -4327,6 +5146,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4334,9 +5154,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4357,7 +5177,7 @@
     "ja"
    ], 
    "meta": "This is a unit test for keyboard events.", 
-   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\keyboard_shortcuts.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\keyboard_shortcuts.py", 
    "name": "keyboard_shortcuts", 
    "package": "unit_tests", 
    "platform": [
@@ -4365,6 +5185,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4372,9 +5193,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4395,7 +5216,7 @@
     "ja"
    ], 
    "meta": "This is a unit test for hover, and click.", 
-   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\mouse_events.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\mouse_events.py", 
    "name": "mouse_events", 
    "package": "unit_tests", 
    "platform": [
@@ -4403,6 +5224,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4410,9 +5232,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4433,10 +5255,11 @@
     "ja"
    ], 
    "meta": "This is a unit test for ocr.", 
-   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\ocr.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\ocr.py", 
    "name": "ocr", 
    "package": "unit_tests", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4444,9 +5267,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4467,7 +5290,7 @@
     "ja"
    ], 
    "meta": "Unit tests for Settings Class", 
-   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\settings.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\unit_tests\\settings.py", 
    "name": "settings", 
    "package": "unit_tests", 
    "platform": [
@@ -4475,6 +5298,79 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
+   "test_case_id": "", 
+   "test_suite_id": ""
+  }
+ ], 
+ "update": [
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": false, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This is a test for Firefox background update.", 
+   "module": "c:\\github\\iris\\iris\\tests\\update\\background_update.py", 
+   "name": "background_update", 
+   "package": "update", 
+   "platform": [], 
+   "tags": "", 
+   "test_case_id": "", 
+   "test_suite_id": ""
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr"
+   ], 
+   "enabled": false, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This is a test for Firefox manual update.", 
+   "module": "c:\\github\\iris\\iris\\tests\\update\\manual_update.py", 
+   "name": "manual_update", 
+   "package": "update", 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }
@@ -4484,9 +5380,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4507,10 +5403,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for amazon.com", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\amazon.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\amazon.py", 
    "name": "amazon", 
    "package": "web_compat", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4518,11 +5415,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -4541,14 +5438,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for baidu.com", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\baidu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\baidu.py", 
    "name": "baidu", 
    "package": "web_compat", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4556,9 +5450,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4579,10 +5473,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for bing.com", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\bing.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\bing.py", 
    "name": "bing", 
    "package": "web_compat", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4590,9 +5485,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4613,10 +5508,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for eBay", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\ebay.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\ebay.py", 
    "name": "ebay", 
    "package": "web_compat", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4624,9 +5520,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4647,10 +5543,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for facebook.com", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\facebook.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\facebook.py", 
    "name": "facebook", 
    "package": "web_compat", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4658,9 +5555,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4681,10 +5578,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for gmail.com", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\gmail.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\gmail.py", 
    "name": "gmail", 
    "package": "web_compat", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4692,11 +5590,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -4715,14 +5613,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for maps.google.com", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\google_maps.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\google_maps.py", 
    "name": "google_maps", 
    "package": "web_compat", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4730,9 +5625,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4753,10 +5648,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for linkedin.com", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\linkedin.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\linkedin.py", 
    "name": "linkedin", 
    "package": "web_compat", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4764,11 +5660,11 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
-   "enabled": true, 
+   "enabled": false, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -4787,14 +5683,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for wikipedia.org", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\wikipedia.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\wikipedia.py", 
    "name": "wikipedia", 
    "package": "web_compat", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
+   "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4802,9 +5695,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4825,10 +5718,11 @@
     "ja"
    ], 
    "meta": "This is a test of sending messages on Yahoo web messenger", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\yahoo_messenger.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\yahoo_messenger.py", 
    "name": "yahoo_messenger", 
    "package": "web_compat", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }, 
@@ -4836,9 +5730,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -4859,10 +5753,11 @@
     "ja"
    ], 
    "meta": "Web compatibility test for youtube.com", 
-   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\youtube.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\web_compat\\youtube.py", 
    "name": "youtube", 
    "package": "web_compat", 
    "platform": [], 
+   "tags": "", 
    "test_case_id": "", 
    "test_suite_id": ""
   }
@@ -4872,9 +5767,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4895,7 +5790,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the default zoom level from the url bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\default_zoom_level.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\default_zoom_level.py", 
    "name": "default_zoom_level", 
    "package": "zoom_indicator", 
    "platform": [
@@ -4903,6 +5798,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "7442", 
    "test_suite_id": "242"
   }, 
@@ -4910,9 +5806,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4933,7 +5829,7 @@
     "ja"
    ], 
    "meta": "This test case verifies the presence of the zoom indicator in the location bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_displays_zoom_indicator.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_displays_zoom_indicator.py", 
    "name": "location_bar_displays_zoom_indicator", 
    "package": "zoom_indicator", 
    "platform": [
@@ -4941,6 +5837,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "7445", 
    "test_suite_id": "242"
   }, 
@@ -4948,9 +5845,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4971,7 +5868,7 @@
     "ja"
    ], 
    "meta": "This test case verifies the presence of the zoom indicator in the location bar using the mousewheel.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_displays_zoom_indicator_mouse_wheel.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_displays_zoom_indicator_mouse_wheel.py", 
    "name": "location_bar_displays_zoom_indicator_mouse_wheel", 
    "package": "zoom_indicator", 
    "platform": [
@@ -4979,16 +5876,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7450", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5009,7 +5907,7 @@
     "ja"
    ], 
    "meta": "This test case checks that no zoom indicator is displayed in the location bar for the default zoom level.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_no_zoom_indicator.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_no_zoom_indicator.py", 
    "name": "location_bar_no_zoom_indicator", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5017,6 +5915,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "7444", 
    "test_suite_id": "242"
   }, 
@@ -5024,9 +5923,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5047,7 +5946,7 @@
     "ja"
    ], 
    "meta": "This test case checks the zoom indicator animation from the url bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_zoom_indicator_animation.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_zoom_indicator_animation.py", 
    "name": "location_bar_zoom_indicator_animation", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5055,16 +5954,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7451", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5085,7 +5985,7 @@
     "ja"
    ], 
    "meta": "This test case checks the zoom indicator animation from the url bar using the mousewheel.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_zoom_indicator_animation_mouse_wheel.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_zoom_indicator_animation_mouse_wheel.py", 
    "name": "location_bar_zoom_indicator_animation_mouse_wheel", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5093,16 +5993,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7446", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5123,7 +6024,7 @@
     "ja"
    ], 
    "meta": "This test case checks that zoom indicator hides in the url bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_zoom_indicator_hides.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_zoom_indicator_hides.py", 
    "name": "location_bar_zoom_indicator_hides", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5131,16 +6032,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7447", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5161,7 +6063,7 @@
     "ja"
    ], 
    "meta": "This test case checks that zoom indicator hides in the location bar; zoom is performed using the mouse wheel.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_zoom_indicator_hides_mouse_wheel.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\location_bar_zoom_indicator_hides_mouse_wheel.py", 
    "name": "location_bar_zoom_indicator_hides_mouse_wheel", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5169,16 +6071,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7452", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5199,7 +6102,7 @@
     "ja"
    ], 
    "meta": "This test case checks that no zoom indicator is displayed in the url bar when the 'zoom text only' option is selected.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\no_zoom_indicator_when_only_text_is_zoomed.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\no_zoom_indicator_when_only_text_is_zoomed.py", 
    "name": "no_zoom_indicator_when_only_text_is_zoomed", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5207,16 +6110,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "124881", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5237,7 +6141,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom indicator in a private window when applying keyboard keys.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\private_window_keyboard_keys.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\private_window_keyboard_keys.py", 
    "name": "private_window_keyboard_keys", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5245,16 +6149,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7462", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5275,7 +6180,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom indicator in a private window when applying the Firefox Menu Zoom Controls.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\private_window_menu_zoom_controls.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\private_window_menu_zoom_controls.py", 
    "name": "private_window_menu_zoom_controls", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5283,16 +6188,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7463", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5313,7 +6219,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom indicator in a private window when applying keyboard keys.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\private_window_mouse_wheel_and_keyboard_keys.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\private_window_mouse_wheel_and_keyboard_keys.py", 
    "name": "private_window_mouse_wheel_and_keyboard_keys", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5321,16 +6227,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7465", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5351,7 +6258,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom indicator in a private window when applying the View Menu Options.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\private_window_view_menu_options.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\private_window_view_menu_options.py", 
    "name": "private_window_view_menu_options", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5359,16 +6266,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7464", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5389,7 +6297,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom level reset functionality from the hamburger menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\reset_zoom_level_hamburger_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\reset_zoom_level_hamburger_menu.py", 
    "name": "reset_zoom_level_hamburger_menu", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5397,16 +6305,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7457", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5427,7 +6336,7 @@
     "ja"
    ], 
    "meta": "This is a test case that resets the zoom level from the menu bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\reset_zoom_level_menu_bar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\reset_zoom_level_menu_bar.py", 
    "name": "reset_zoom_level_menu_bar", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5435,16 +6344,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7460", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5465,7 +6375,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom controls on toolbar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_controls_on_toolbar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_controls_on_toolbar.py", 
    "name": "zoom_controls_on_toolbar", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5473,16 +6383,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7443", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5503,7 +6414,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom in functionality from the hamburger menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_in_hamburger_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_in_hamburger_menu.py", 
    "name": "zoom_in_hamburger_menu", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5511,16 +6422,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7458", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5541,7 +6453,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom in functionality from the menu bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_in_menu_bar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_in_menu_bar.py", 
    "name": "zoom_in_menu_bar", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5549,6 +6461,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "7455", 
    "test_suite_id": "242"
   }, 
@@ -5556,9 +6469,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5579,7 +6492,7 @@
     "ja"
    ], 
    "meta": "This test case verifies the zoom level on multiple tabs using multiple sites.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_level_multiple_tabs_and_sites.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_level_multiple_tabs_and_sites.py", 
    "name": "zoom_level_multiple_tabs_and_sites", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5587,16 +6500,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7448", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5617,7 +6531,7 @@
     "ja"
    ], 
    "meta": "This test case verifies the zoom level on multiple tabs using multiple sites and mouse wheel.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_level_multiple_tabs_with_mouse_wheel.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_level_multiple_tabs_with_mouse_wheel.py", 
    "name": "zoom_level_multiple_tabs_with_mouse_wheel", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5625,16 +6539,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7453", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5655,7 +6570,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom indicator + window state.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_level_window_state.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_level_window_state.py", 
    "name": "zoom_level_window_state", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5663,16 +6578,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7449", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5693,7 +6609,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom indicator + window state when using the mouse wheel.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_level_window_state_mouse_wheel.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_level_window_state_mouse_wheel.py", 
    "name": "zoom_level_window_state_mouse_wheel", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5701,16 +6617,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7454", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5731,7 +6648,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom out functionality from the hamburger menu.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_out_hamburger_menu.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_out_hamburger_menu.py", 
    "name": "zoom_out_hamburger_menu", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5739,6 +6656,7 @@
     "osx", 
     "win"
    ], 
+   "tags": "", 
    "test_case_id": "7456", 
    "test_suite_id": "242"
   }, 
@@ -5746,9 +6664,9 @@
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5769,7 +6687,7 @@
     "ja"
    ], 
    "meta": "This is a test case that checks the zoom out functionality from the menu bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_out_menu_bar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_out_menu_bar.py", 
    "name": "zoom_out_menu_bar", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5777,16 +6695,17 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7459", 
+   "test_suite_id": "242"
   }, 
   {
    "blocked_by": "", 
    "channel": [
     "beta", 
-    "esr", 
+    "release", 
     "nightly", 
-    "release"
+    "esr"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5807,7 +6726,7 @@
     "ja"
    ], 
    "meta": "This test case checks that 'zoom text only' option works correctly.", 
-   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_text_only_menu_bar.pyc", 
+   "module": "c:\\github\\iris\\iris\\tests\\zoom_indicator\\zoom_text_only_menu_bar.py", 
    "name": "zoom_text_only_menu_bar", 
    "package": "zoom_indicator", 
    "platform": [
@@ -5815,8 +6734,9 @@
     "osx", 
     "win"
    ], 
-   "test_case_id": "", 
-   "test_suite_id": ""
+   "tags": "", 
+   "test_case_id": "7461", 
+   "test_suite_id": "242"
   }
  ]
 }
