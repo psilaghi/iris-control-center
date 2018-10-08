@@ -4,6 +4,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import ExpandableContent from './ExpandableContent';
+import styled from 'styled-components';
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css"
+import './style.css';
+
+const StyledDiv=styled.div`
+  color: ${props => props.error ? 'red' : 'black'};
+  cursor: pointer;
+`;
+
+const StyledCardBody = styled(Card)`
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+`;
 
 class DetailsSection extends React.Component {
   constructor(props) {
@@ -20,21 +36,39 @@ class DetailsSection extends React.Component {
   }
 
   render() {
-    const {data} = this.props;
+    const {data, name} = this.props;
+    const showCarousel = name === 'debug_images';
+    let images = [];
+    var path = this.props.imagesPath;
+    
+   
+    if(showCarousel){
+      var new_path = path.substring(path.indexOf('\\data'), path.length);
+      var new_path2 = new_path.replace(/\\/gi, '/')+'/';
+
+      data.map(item => {
+        images.push({
+          original: new_path2+item,
+          thumbnail: new_path2+item,
+        });
+      });
+    }
+    
     return (
       <div>
-        <div onClick={this.toggleCollapse}>
+        <StyledDiv onClick={this.toggleCollapse} error={this.props.hasError}>
           <FontAwesomeIcon className="arrow-icon" icon={this.state.expanded ? faChevronDown : faChevronRight} />
-          <span>
-            <i>{this.props.name}</i>
-          </span>
-        </div>
+          <span><i>{name}</i></span>
+        </StyledDiv>
 
         <Collapse isOpen={this.state.expanded}>
           <Card>
-            <CardBody>
-              <ExpandableContent data={data} />
-            </CardBody>
+            <StyledCardBody>
+              {showCarousel 
+                ? <ImageGallery items={images} className="image-size" />
+                : <ExpandableContent data={data} />
+              }
+            </StyledCardBody>
           </Card>
         </Collapse>
       </div>

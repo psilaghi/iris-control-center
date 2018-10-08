@@ -16,7 +16,7 @@ class RunDetailsPage extends React.Component {
   render() {
     return (
       <div className="page">
-        <h4>Run details:</h4>
+        <h4>Run '{this.props.match.params.id}' details:</h4>
         {Object.keys(this.state.details).map(detail => (
           <DetailsSection 
             data={this.state.details[detail]} 
