@@ -8,6 +8,14 @@ const StyledSpan=styled.span`
   line-height: 30px;
 `;
 
+const isCategoryWithFailingTest = (categoryData) => {
+  if (!Array.isArray(categoryData)) {
+    return false;
+  }
+  const failedTest = categoryData.find (item => item['result'] === 'FAILED');
+  return failedTest !== undefined ? true : false;
+}
+
 const ExpandableContent= (props) => {
   const {data} = props;
   return (
@@ -24,7 +32,7 @@ const ExpandableContent= (props) => {
               data={data[key]} 
               name={isFinite(key) && data[key]['name'] ? data[key]['name'] : key}
               key={key} 
-              hasError={data[key]['result']==='FAILED'}
+              hasError={data[key]['result']==='FAILED' || isCategoryWithFailingTest(data[key])}
               imagesPath={key==='debug_images' ? data['debug_image_directory'] : ''}
             />
           }
