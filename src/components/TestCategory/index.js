@@ -7,6 +7,10 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
 
+const StyledDiv=styled.div`
+  cursor: pointer;
+`;
+
 class TestCategory extends React.Component {
   constructor(props) {
     super(props);
@@ -42,7 +46,7 @@ class TestCategory extends React.Component {
   render() {
     return (
       <div>
-        <div onClick={this.toggleCollapse}>
+        <StyledDiv onClick={this.toggleCollapse}>
           <input
             type="checkbox"
             checked={this.props.selectedTests.length === this.props.tests.length}
@@ -52,7 +56,7 @@ class TestCategory extends React.Component {
           <span>
             {this.props.name}
           </span>
-        </div>
+        </StyledDiv>
 
         <Collapse isOpen={this.state.expanded}>
             <Card>

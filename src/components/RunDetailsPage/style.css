@@ -6,3 +6,12 @@
   width: 400px;
   height: 400px;
 } */
+
+.align {
+  padding: 10px;
+}
+
+.styled-ul {
+  margin-bottom: 0;
+  color: red;
+}

@@ -100,16 +100,25 @@ class NewRunPage extends React.Component {
     });
   }
 
+  handleSelectAll = (checked) => {
+    this.setState({
+      newRun: {
+        ...this.state.newRun,
+        tests: checked ? this.state.tests : {}
+      }
+    });
+  }
+
   render() {
     return (
       <div className="page">
         <h4>Start new run:</h4>
-        <div className="grid-top">
-          <button type="button" className="btn btn-primary header-button" onClick={this.handleSubmit}>Go</button>
-          <button type="button" className="btn btn-secondary header-button" onClick={this.handleCancel}>Cancel</button>
-        </div>
-
         <div className="grid">
+          <div className="grid-left">
+            <button type="button" className="btn btn-primary header-button" onClick={this.handleSubmit}>Go</button>
+            <button type="button" className="btn btn-secondary header-button" onClick={this.handleCancel}>Cancel</button>
+          </div>
+
           <div className="grid-center">
             {DropdownItems.map(item =>
               this.state.args[item] && (
@@ -148,7 +157,11 @@ class NewRunPage extends React.Component {
             )}
           </div>
 
-          <div className="grid-left">
+          <div className="grid-bottom">
+            <Checkbox
+              label="Select all tests"
+              onChange={this.handleSelectAll}
+            />
             {Object.keys(this.state.tests).map(categoryName => (
               <TestCategory
                 key={categoryName}

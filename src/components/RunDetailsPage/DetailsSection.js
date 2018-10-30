@@ -66,7 +66,10 @@ class DetailsSection extends React.Component {
             <StyledCardBody>
               {showCarousel 
                 ? <ImageGallery items={images} className="image-size" />
-                : <ExpandableContent data={data} />
+                : <ExpandableContent
+                    data={data}
+                    failedCategories = {this.props.failedCategories}
+                  />
               }
             </StyledCardBody>
           </Card>

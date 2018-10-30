@@ -1,0 +1,298 @@
+{
+ "meta": {
+  "args": "C:\\Users\\paul.silaghi\\.virtualenvs\\iris-DBojdd3p\\Scripts\\iris", 
+  "channel": "beta", 
+  "config": "10.0, 64-bit, x86_64", 
+  "end_time": 1541170814, 
+  "errors": 1, 
+  "failed": 4, 
+  "failed_tests": {
+   "experiments": [
+    "empty"
+   ], 
+   "history": [
+    "clear_all_history"
+   ], 
+   "toolbars_window_controls": [
+    "about_firefox_controls", 
+    "browser_control_console"
+   ]
+  }, 
+  "fx_build_id": "20181101155334", 
+  "fx_version": "64.0", 
+  "iris_branch": "dev", 
+  "iris_branch_head": "c1b5ccf4027bd299442002b388b51e0c94e9152b", 
+  "iris_repo": "c:\\github\\iris", 
+  "iris_version": 1.0, 
+  "locale": "en-US", 
+  "log": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\iris_log.log", 
+  "params": {
+   "clear": false, 
+   "control": false, 
+   "directory": "c:\\github\\iris\\iris\\tests", 
+   "email": false, 
+   "exclude": null, 
+   "firefox": "latest-beta", 
+   "highlight": false, 
+   "image_debug": false, 
+   "level": 20, 
+   "locale": "en-US", 
+   "mouse": 0.5, 
+   "no_check": false, 
+   "override": true, 
+   "port": 2000, 
+   "report": false, 
+   "rerun": false, 
+   "resize": false, 
+   "save": false, 
+   "test": null, 
+   "workdir": "C:\\Users\\paul.silaghi\\.iris"
+  }, 
+  "passed": 0, 
+  "platform": "win", 
+  "run_id": "20181102145818", 
+  "skipped": 0, 
+  "start_time": 1541170739, 
+  "total": 4, 
+  "total_time": 74
+ }, 
+ "tests": {
+  "experiments": [
+   {
+    "asserts": [
+     {
+      "actual": 1, 
+      "error": null, 
+      "expected": 1, 
+      "message": "test", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": false, 
+      "error": "\n------------------------------------------------------------------------------------------------------------------------\n\u00bb Traceback (most recent call last):                                                                                   \u00ab\n\u00bb   File \"C:\\Users\\paul.silaghi\\.virtualenvs\\iris-DBojdd3p\\Scripts\\iris-script.py\", line 11, in <module>               \u00ab\n\u00bb     load_entry_point('iris', 'console_scripts', 'iris')()                                                            \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\__main__.py\", line 46, in main                                                           \u00ab\n\u00bb     Iris()                                                                                                           \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\__main__.py\", line 59, in __init__                                                       \u00ab\n\u00bb     run(self)                                                                                                        \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\test_runner.py\", line 75, in run                                                         \u00ab\n\u00bb     current.run()                                                                                                    \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\tests\\experiments\\empty.py\", line 22, in run                                             \u00ab\n\u00bb     assert_true(self, False, 'test')                                                                                 \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\asserts.py\", line 60, in assert_true                                                     \u00ab\n\u00bb     assert_equal(test_case, actual, True, message)                                                                   \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\asserts.py\", line 32, in assert_equal                                                    \u00ab\n\u00bb     test_case.add_results('FAILED', message, actual, expected, print_error(format_stack(traceback.extract_stack()))) \u00ab\n------------------------------------------------------------------------------------------------------------------------\n", 
+      "expected": true, 
+      "message": "test", 
+      "outcome": "FAILED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\experiments\\empty\\debug_images", 
+    "debug_images": [
+     "2018_11_02_16_59_01_988000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_02_287000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_02_599000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_02_937000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_03_276000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_03_588000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_03_904000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_04_235000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_04_590000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_04_948000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_05_267000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_05_586000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_05_900000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_06_219000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_06_545000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_06_851000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_07_153000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_07_471000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_07_795000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_08_103000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_08_406000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_08_720000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_09_028000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_09_341000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_09_643000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_09_959000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_10_263000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_10_596000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_10_914000_confirm_firefox_launch.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=1&total=4&title=empty,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_u8ysts\\experiments_empty", 
+    "meta": "This is an empty test case that does nothing", 
+    "module": "c:\\github\\iris\\iris\\tests\\experiments\\empty.py", 
+    "name": "empty", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_u8ysts\\experiments_empty", 
+    "result": "FAILED", 
+    "time": 13
+   }
+  ], 
+  "history": [
+   {
+    "asserts": [
+     {
+      "actual": false, 
+      "error": "\n------------------------------------------------------------------------------------------------------------------------\n\u00bb Traceback (most recent call last):                                                                                   \u00ab\n\u00bb   File \"C:\\Users\\paul.silaghi\\.virtualenvs\\iris-DBojdd3p\\Scripts\\iris-script.py\", line 11, in <module>               \u00ab\n\u00bb     load_entry_point('iris', 'console_scripts', 'iris')()                                                            \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\__main__.py\", line 46, in main                                                           \u00ab\n\u00bb     Iris()                                                                                                           \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\__main__.py\", line 59, in __init__                                                       \u00ab\n\u00bb     run(self)                                                                                                        \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\test_runner.py\", line 75, in run                                                         \u00ab\n\u00bb     current.run()                                                                                                    \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\tests\\history\\clear_all_history.py\", line 28, in run                                     \u00ab\n\u00bb     assert_true(self, expected_1, 'Mozilla page loaded successfully.')                                               \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\asserts.py\", line 60, in assert_true                                                     \u00ab\n\u00bb     assert_equal(test_case, actual, True, message)                                                                   \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\asserts.py\", line 32, in assert_equal                                                    \u00ab\n\u00bb     test_case.add_results('FAILED', message, actual, expected, print_error(format_stack(traceback.extract_stack()))) \u00ab\n------------------------------------------------------------------------------------------------------------------------\n", 
+      "expected": true, 
+      "message": "Mozilla page loaded successfully.", 
+      "outcome": "FAILED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\history\\clear_all_history\\debug_images", 
+    "debug_images": [
+     "2018_11_02_16_59_17_429000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_17_758000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_18_058000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_18_385000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_18_721000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_19_103000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_19_447000_confirm_firefox_launch.jpg", 
+     "2018_11_02_16_59_25_153000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_25_440000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_25_718000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_26_004000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_26_290000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_26_584000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_26_854000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_27_141000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_27_426000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_27_727000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_28_010000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_28_293000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_28_579000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_28_862000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_29_148000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_29_442000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_29_732000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_30_014000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_30_307000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_30_591000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_30_882000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_31_168000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_31_452000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_31_744000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_32_043000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_32_315000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_32_600000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_32_887000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_33_172000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_33_458000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_33_738000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_34_022000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_34_307000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_34_591000_clear_all_history_not_found.jpg", 
+     "2018_11_02_16_59_34_875000_clear_all_history_not_found.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=2&total=4&title=clear_all_history,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_u8ysts\\history_clear_all_history", 
+    "meta": "Clear all the History.", 
+    "module": "c:\\github\\iris\\iris\\tests\\history\\clear_all_history.py", 
+    "name": "clear_all_history", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_u8ysts\\history_clear_all_history", 
+    "result": "FAILED", 
+    "time": 19
+   }
+  ], 
+  "toolbars_window_controls": [
+   {
+    "asserts": [
+     {
+      "actual": false, 
+      "error": "\n------------------------------------------------------------------------------------------------------------------------\n\u00bb Traceback (most recent call last):                                                                                   \u00ab\n\u00bb   File \"C:\\Users\\paul.silaghi\\.virtualenvs\\iris-DBojdd3p\\Scripts\\iris-script.py\", line 11, in <module>               \u00ab\n\u00bb     load_entry_point('iris', 'console_scripts', 'iris')()                                                            \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\__main__.py\", line 46, in main                                                           \u00ab\n\u00bb     Iris()                                                                                                           \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\__main__.py\", line 59, in __init__                                                       \u00ab\n\u00bb     run(self)                                                                                                        \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\test_runner.py\", line 75, in run                                                         \u00ab\n\u00bb     current.run()                                                                                                    \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\about_firefox_controls.py\", line 23, in run               \u00ab\n\u00bb     assert_true(self, expected_1, '\\'About Firefox\\' window was opened successfully.')                               \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\asserts.py\", line 60, in assert_true                                                     \u00ab\n\u00bb     assert_equal(test_case, actual, True, message)                                                                   \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\asserts.py\", line 32, in assert_equal                                                    \u00ab\n\u00bb     test_case.add_results('FAILED', message, actual, expected, print_error(format_stack(traceback.extract_stack()))) \u00ab\n------------------------------------------------------------------------------------------------------------------------\n", 
+      "expected": true, 
+      "message": "'About Firefox' window was opened successfully.", 
+      "outcome": "FAILED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\toolbars_window_controls\\about_firefox_controls\\debug_images", 
+    "debug_images": [
+     "2018_11_02_16_59_39_948000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_40_288000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_40_601000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_40_918000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_41_253000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_41_607000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_16_59_41_958000_confirm_firefox_launch.jpg", 
+     "2018_11_02_16_59_45_043000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_45_345000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_45_626000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_45_926000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_46_228000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_46_528000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_46_811000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_47_095000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_47_382000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_47_672000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_47_965000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_48_251000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_48_549000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_48_834000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_49_137000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_49_418000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_49_717000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_50_009000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_50_319000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_50_618000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_50_920000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_51_218000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_51_527000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_51_808000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_52_091000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_52_390000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_52_681000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_52_975000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_53_262000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_53_564000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_53_843000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_54_144000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_54_435000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_54_736000_about_firefox_controls_not_found.jpg", 
+     "2018_11_02_16_59_55_016000_about_firefox_controls_not_found.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=3&total=4&title=about_firefox_controls,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_u8ysts\\toolbars_window_controls_about_firefox_controls", 
+    "meta": "This is a test of the 'About Firefox' window controls", 
+    "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\about_firefox_controls.py", 
+    "name": "about_firefox_controls", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_u8ysts\\toolbars_window_controls_about_firefox_controls", 
+    "result": "FAILED", 
+    "time": 17
+   }, 
+   {
+    "asserts": [
+     {
+      "actual": null, 
+      "error": "\n-----------------------------------------------------------------------------------------------------------\n\u00bb Traceback (most recent call last):                                                                      \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\test_runner.py\", line 75, in run                                            \u00ab\n\u00bb     current.run()                                                                                       \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\browser_control_console.py\", line 27, in run \u00ab\n\u00bb     pop_up_region = click_hamburger_menu_option('Web Developer')                                        \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\api\\helpers\\general.py\", line 234, in click_hamburger_menu_option           \u00ab\n\u00bb     'Can\\'t find the option in the page, aborting test.')                                               \u00ab\n\u00bb APIHelperError: Can't find the option in the page, aborting test.                                       \u00ab\n-----------------------------------------------------------------------------------------------------------\n", 
+      "expected": null, 
+      "message": null, 
+      "outcome": "ERROR"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\toolbars_window_controls\\browser_control_console\\debug_images", 
+    "debug_images": [
+     "2018_11_02_16_59_59_930000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_17_00_00_281000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_17_00_00_593000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_17_00_00_933000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_17_00_01_282000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_17_00_01_660000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_02_17_00_01_996000_confirm_firefox_launch.jpg", 
+     "2018_11_02_17_00_06_462000_click_hamburger_menu_option.jpg", 
+     "2018_11_02_17_00_06_692000_create_region_from_image.jpg", 
+     "2018_11_02_17_00_06_925000_click_hamburger_menu_option.jpg", 
+     "2018_11_02_17_00_11_747000_click_hamburger_menu_option_not_found.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181102145818\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=4&total=4&title=browser_control_console,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_u8ysts\\toolbars_window_controls_browser_control_console", 
+    "meta": "This is a test case that checks that Browser Control Console work as expected.", 
+    "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\browser_control_console.py", 
+    "name": "browser_control_console", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_u8ysts\\toolbars_window_controls_browser_control_console", 
+    "result": "PASSED", 
+    "time": 14
+   }
+  ]
+ }
+}

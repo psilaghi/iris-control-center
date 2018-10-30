@@ -4,8 +4,8 @@
     "top top top"
     "left center right"
     "bottom bottom bottom";
-  grid-gap: 30px;
-  grid-template-columns: 40% 30% 30%;
+  /* grid-gap: 30px; */
+  /* grid-template-columns: 40% 30% 30%; */
 }
 
 .grid-left {
@@ -25,6 +25,7 @@
 
 .grid-bottom {
   grid-area: bottom;
+  padding: 20px;
 }
 
 .grid-top {

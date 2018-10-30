@@ -506,6 +506,46 @@
     "ro", 
     "ja"
    ], 
+   "meta": "Mouse handling - in the awesomebar.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\mouse_handling_in_awesomebar.py", 
+   "name": "mouse_handling_in_awesomebar", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108282", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
    "meta": "This test case checks that mouse position does not affect a search from awesomebar.", 
    "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\mouse_position_does_not_affect_a_search.py", 
    "name": "mouse_position_does_not_affect_a_search", 
@@ -3435,6 +3475,166 @@
     "ro", 
     "ja"
    ], 
+   "meta": "Click on a website from the Library.", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\click_website_from_library.py", 
+   "name": "click_website_from_library", 
+   "package": "history", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "174037", 
+   "test_suite_id": "2000"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Delete history from Library context menu", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\delete_history_from_library_context_menu.py", 
+   "name": "delete_history_from_library_context_menu", 
+   "package": "history", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "1385883", 
+   "test_suite_id": "909"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Dismiss the 'Clear Recent History' window.", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\dismiss_clear_recent_history_window.py", 
+   "name": "dismiss_clear_recent_history_window", 
+   "package": "history", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "172048", 
+   "test_suite_id": "2000"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Forget all the history from the last 5 minutes.", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\forget_history_last_5_mins.py", 
+   "name": "forget_history_last_5_mins", 
+   "package": "history", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "174072", 
+   "test_suite_id": "2000"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
    "meta": "Open the History Menu and check the Recent History list.", 
    "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu.py", 
    "name": "history_menu", 
@@ -3447,6 +3647,46 @@
    "tags": "", 
    "test_case_id": "118799", 
    "test_suite_id": "2000"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Forget a page from the Library - History menu.", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu_forget_page.py", 
+   "name": "history_menu_forget_page", 
+   "package": "history", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "174050", 
+   "test_suite_id": "905"
   }, 
   {
    "blocked_by": "", 
@@ -3527,6 +3767,46 @@
    "tags": "", 
    "test_case_id": "118806", 
    "test_suite_id": "2000"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Page visits show in Recent history.", 
+   "module": "c:\\github\\iris\\iris\\tests\\history\\history_menu_recent_history.py", 
+   "name": "history_menu_recent_history", 
+   "package": "history", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "1385083", 
+   "test_suite_id": "908"
   }, 
   {
    "blocked_by": "", 

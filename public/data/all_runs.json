@@ -3,37 +3,57 @@
   {
    "build": "20181029164536", 
    "channel": "beta", 
-   "failed": 0, 
-   "id": "20181030123436", 
-   "locale": "en-US", 
-   "total": 1, 
-   "version": "64.0"
-  }, 
-  {
-   "build": "20181029164536", 
-   "channel": "beta", 
-   "failed": 0, 
-   "id": "20181030123613", 
-   "locale": "en-US", 
-   "total": 1, 
-   "version": "64.0"
-  }, 
-  {
-   "build": "20181029164536", 
-   "channel": "beta", 
-   "failed": 1, 
-   "id": "20181030123713", 
-   "locale": "en-US", 
-   "total": 1, 
-   "version": "64.0"
-  }, 
-  {
-   "build": "20181029164536", 
-   "channel": "beta", 
-   "failed": 1, 
-   "id": "20181030123804", 
+   "failed": [
+    "empty"
+   ], 
+   "id": "20181101092512", 
    "locale": "en-US", 
    "total": 3, 
+   "version": "64.0"
+  }, 
+  {
+   "build": "20181029164536", 
+   "channel": "beta", 
+   "failed": [], 
+   "id": "20181101092659", 
+   "locale": "en-US", 
+   "total": 3, 
+   "version": "64.0"
+  }, 
+  {
+   "build": "20181101155334", 
+   "channel": "beta", 
+   "failed": [
+    "about_firefox_controls"
+   ], 
+   "id": "20181102145223", 
+   "locale": "en-US", 
+   "total": 2, 
+   "version": "64.0"
+  }, 
+  {
+   "build": "20181101155334", 
+   "channel": "beta", 
+   "failed": [
+    "empty"
+   ], 
+   "id": "20181102145659", 
+   "locale": "en-US", 
+   "total": 2, 
+   "version": "64.0"
+  }, 
+  {
+   "build": "20181101155334", 
+   "channel": "beta", 
+   "failed": [
+    "empty", 
+    "clear_all_history", 
+    "about_firefox_controls", 
+    "browser_control_console"
+   ], 
+   "id": "20181102145818", 
+   "locale": "en-US", 
+   "total": 4, 
    "version": "64.0"
   }
  ]

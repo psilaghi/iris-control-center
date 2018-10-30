@@ -1,0 +1,220 @@
+{
+ "meta": {
+  "args": "C:\\Users\\paul.silaghi\\.virtualenvs\\iris-DBojdd3p\\Scripts\\iris", 
+  "channel": "beta", 
+  "config": "10.0, 64-bit, x86_64", 
+  "end_time": 1541064406, 
+  "errors": 0, 
+  "failed": 1, 
+  "failed_tests": {
+   "experiments": [
+    "empty"
+   ]
+  }, 
+  "fx_build_id": "20181029164536", 
+  "fx_version": "64.0", 
+  "iris_branch": "dev", 
+  "iris_branch_head": "66527dd6f4d22379ebb54176186caa8c03616ca7", 
+  "iris_repo": "c:\\github\\iris", 
+  "iris_version": 1.0, 
+  "locale": "en-US", 
+  "log": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092512\\iris_log.log", 
+  "params": {
+   "clear": false, 
+   "control": false, 
+   "directory": "c:\\github\\iris\\iris\\tests", 
+   "email": false, 
+   "exclude": null, 
+   "firefox": "latest-beta", 
+   "highlight": false, 
+   "image_debug": false, 
+   "level": 20, 
+   "locale": "en-US", 
+   "mouse": 0.5, 
+   "no_check": false, 
+   "override": true, 
+   "port": 2000, 
+   "report": false, 
+   "rerun": false, 
+   "resize": false, 
+   "save": false, 
+   "test": null, 
+   "workdir": "C:\\Users\\paul.silaghi\\.iris"
+  }, 
+  "passed": 2, 
+  "platform": "win", 
+  "run_id": "20181101092512", 
+  "skipped": 0, 
+  "start_time": 1541064353, 
+  "total": 3, 
+  "total_time": 52
+ }, 
+ "tests": {
+  "awesomebar": [
+   {
+    "asserts": [
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "CNN page successfully loaded .", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Facebook page successfully loaded.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "CNN page successfully reloaded.", 
+      "outcome": "PASSED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092512\\awesomebar\\add_links_keyboard_shortcuts\\debug_images", 
+    "debug_images": [
+     "2018_11_01_11_25_56_145000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_25_56_631000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_25_56_984000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_25_57_306000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_25_57_652000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_25_58_015000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_25_58_427000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_25_58_779000_confirm_firefox_launch.jpg", 
+     "2018_11_01_11_26_02_806000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_03_008000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_03_205000_add_links_keyboard_shortcuts.jpg", 
+     "2018_11_01_11_26_03_420000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_03_615000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_03_831000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_04_047000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_04_261000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_04_504000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_04_730000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_04_959000_add_links_keyboard_shortcuts.jpg", 
+     "2018_11_01_11_26_08_462000_add_links_keyboard_shortcuts_not_found.jpg", 
+     "2018_11_01_11_26_08_714000_add_links_keyboard_shortcuts.jpg", 
+     "2018_11_01_11_26_12_034000_add_links_keyboard_shortcuts.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092512\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=1&total=3&title=add_links_keyboard_shortcuts,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_0f6aip\\awesomebar_add_links_keyboard_shortcuts", 
+    "meta": "This test case adds links using 'CTRL' + 'ENTER' keys.", 
+    "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\add_links_keyboard_shortcuts.py", 
+    "name": "add_links_keyboard_shortcuts", 
+    "prefs": {
+     "browser.contentblocking.enabled": false, 
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_0f6aip\\awesomebar_add_links_keyboard_shortcuts", 
+    "result": "PASSED", 
+    "time": 18
+   }
+  ], 
+  "bookmark": [
+   {
+    "asserts": [
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Properties option is present on the page.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Properties window is present on the page.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Moz bookmark was successfully tagged via bookmark sidebar.", 
+      "outcome": "PASSED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092512\\bookmark\\add_bookmark_tags_via_bookmark_sidebar\\debug_images", 
+    "debug_images": [
+     "2018_11_01_11_26_18_055000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_18_409000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_18_758000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_19_089000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_19_474000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_19_841000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_20_216000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_20_583000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_20_947000_confirm_firefox_launch.jpg", 
+     "2018_11_01_11_26_26_162000_add_bookmark_tags_via_bookmark_sidebar.jpg", 
+     "2018_11_01_11_26_27_118000_add_bookmark_tags_via_bookmark_sidebar.jpg", 
+     "2018_11_01_11_26_27_356000_add_bookmark_tags_via_bookmark_sidebar.jpg", 
+     "2018_11_01_11_26_28_371000_add_bookmark_tags_via_bookmark_sidebar.jpg", 
+     "2018_11_01_11_26_28_614000_add_bookmark_tags_via_bookmark_sidebar.jpg", 
+     "2018_11_01_11_26_29_637000_add_bookmark_tags_via_bookmark_sidebar_not_found.jpg", 
+     "2018_11_01_11_26_29_909000_add_bookmark_tags_via_bookmark_sidebar.jpg", 
+     "2018_11_01_11_26_31_057000_add_bookmark_tags_via_bookmark_sidebar.jpg", 
+     "2018_11_01_11_26_32_756000_add_bookmark_tags_via_bookmark_sidebar_not_found.jpg", 
+     "2018_11_01_11_26_33_726000_add_bookmark_tags_via_bookmark_sidebar.jpg", 
+     "2018_11_01_11_26_34_656000_add_bookmark_tags_via_bookmark_sidebar.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092512\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=2&total=3&title=add_bookmark_tags_via_bookmark_sidebar,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_0f6aip\\bookmark_add_bookmark_tags_via_bookmark_sidebar", 
+    "meta": "Tags can be added to bookmarks using the Bookmarks Sidebar.", 
+    "module": "c:\\github\\iris\\iris\\tests\\bookmark\\add_bookmark_tags_via_bookmark_sidebar.py", 
+    "name": "add_bookmark_tags_via_bookmark_sidebar", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "ten_bookmarks", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_0f6aip\\bookmark_add_bookmark_tags_via_bookmark_sidebar", 
+    "result": "PASSED", 
+    "time": 19
+   }
+  ], 
+  "experiments": [
+   {
+    "asserts": [
+     {
+      "actual": 1, 
+      "error": null, 
+      "expected": 1, 
+      "message": "test", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": false, 
+      "error": "\n------------------------------------------------------------------------------------------------------------------------\n\u00bb Traceback (most recent call last):                                                                                   \u00ab\n\u00bb   File \"C:\\Users\\paul.silaghi\\.virtualenvs\\iris-DBojdd3p\\Scripts\\iris-script.py\", line 11, in <module>               \u00ab\n\u00bb     load_entry_point('iris', 'console_scripts', 'iris')()                                                            \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\__main__.py\", line 46, in main                                                           \u00ab\n\u00bb     Iris()                                                                                                           \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\__main__.py\", line 59, in __init__                                                       \u00ab\n\u00bb     run(self)                                                                                                        \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\test_runner.py\", line 75, in run                                                         \u00ab\n\u00bb     current.run()                                                                                                    \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\tests\\experiments\\empty.py\", line 22, in run                                             \u00ab\n\u00bb     assert_true(self, False, 'test')                                                                                 \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\asserts.py\", line 60, in assert_true                                                     \u00ab\n\u00bb     assert_equal(test_case, actual, True, message)                                                                   \u00ab\n\u00bb   File \"c:\\github\\iris\\iris\\asserts.py\", line 32, in assert_equal                                                    \u00ab\n\u00bb     test_case.add_results('FAILED', message, actual, expected, print_error(format_stack(traceback.extract_stack()))) \u00ab\n------------------------------------------------------------------------------------------------------------------------\n", 
+      "expected": true, 
+      "message": "test", 
+      "outcome": "FAILED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092512\\experiments\\empty\\debug_images", 
+    "debug_images": [
+     "2018_11_01_11_26_39_613000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_39_959000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_40_304000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_40_643000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_41_028000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_41_457000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_26_41_816000_confirm_firefox_launch.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092512\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=3&total=3&title=empty,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_0f6aip\\experiments_empty", 
+    "meta": "This is an empty test case that does nothing", 
+    "module": "c:\\github\\iris\\iris\\tests\\experiments\\empty.py", 
+    "name": "empty", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_0f6aip\\experiments_empty", 
+    "result": "FAILED", 
+    "time": 6
+   }
+  ]
+ }
+}
