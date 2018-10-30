@@ -1,13 +1,40 @@
 {
  "runs": [
   {
-   "build": "20181008155858", 
+   "build": "20181029164536", 
+   "channel": "beta", 
+   "failed": 0, 
+   "id": "20181030123436", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "64.0"
+  }, 
+  {
+   "build": "20181029164536", 
+   "channel": "beta", 
+   "failed": 0, 
+   "id": "20181030123613", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "64.0"
+  }, 
+  {
+   "build": "20181029164536", 
    "channel": "beta", 
    "failed": 1, 
-   "id": "20181010135401", 
+   "id": "20181030123713", 
+   "locale": "en-US", 
+   "total": 1, 
+   "version": "64.0"
+  }, 
+  {
+   "build": "20181029164536", 
+   "channel": "beta", 
+   "failed": 1, 
+   "id": "20181030123804", 
    "locale": "en-US", 
    "total": 3, 
-   "version": "63.0"
+   "version": "64.0"
   }
  ]
 }

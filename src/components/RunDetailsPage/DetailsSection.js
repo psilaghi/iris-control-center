@@ -44,7 +44,7 @@ class DetailsSection extends React.Component {
    
     if(showCarousel){
       var new_path = path.replace(/\\/gi, '/')+'/';
-      var new_path2 = new_path.substring(new_path.indexOf('/data'), new_path.length);
+      var new_path2 = new_path.substring(new_path.indexOf('/runs'), new_path.length);
 
       data.map(item => {
         images.push({

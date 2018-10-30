@@ -6,7 +6,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -26,7 +27,7 @@
     "ro", 
     "ja"
    ], 
-   "meta": "This test case adds links using 'CTRL/CMD' + 'ENTER' keys.", 
+   "meta": "This test case adds links using 'CTRL' + 'ENTER' keys.", 
    "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\add_links_keyboard_shortcuts.py", 
    "name": "add_links_keyboard_shortcuts", 
    "package": "awesomebar", 
@@ -40,12 +41,52 @@
    "test_suite_id": "1902"
   }, 
   {
+   "blocked_by": "1488708", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "Alt+UP/DOWN Keys - in the Awesome Bar.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\alt_up_down_keys_in_awesomebar.py", 
+   "name": "alt_up_down_keys_in_awesomebar", 
+   "package": "awesomebar", 
+   "platform": [
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108278", 
+   "test_suite_id": "1902"
+  }, 
+  {
    "blocked_by": "", 
    "channel": [
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -84,7 +125,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -123,7 +165,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -162,7 +205,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -201,7 +245,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -240,7 +285,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -279,7 +325,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -318,7 +365,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -357,7 +405,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -396,7 +445,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -435,46 +485,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
-   ], 
-   "enabled": true, 
-   "fx_version": "all", 
-   "locale": [
-    "en-US", 
-    "zh-CN", 
-    "es-ES", 
-    "de", 
-    "fr", 
-    "ru", 
-    "ar", 
-    "ko", 
-    "pt-PT", 
-    "vi", 
-    "pl", 
-    "tr", 
-    "ro", 
-    "ja"
-   ], 
-   "meta": "This test case checks that more search engines can be added and are well displayed on one-off searches bar.", 
-   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\more_search_engine_can_be_added.py", 
-   "name": "more_search_engine_can_be_added", 
-   "package": "awesomebar", 
-   "platform": [
-    "linux", 
-    "osx", 
-    "win"
-   ], 
-   "tags": "", 
-   "test_case_id": "108261", 
-   "test_suite_id": "1902"
-  }, 
-  {
-   "blocked_by": "", 
-   "channel": [
-    "beta", 
-    "release", 
-    "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -513,7 +525,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -552,7 +565,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -590,7 +604,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -625,7 +640,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -664,7 +680,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -703,7 +720,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -742,7 +760,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -781,7 +800,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -820,7 +840,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -859,7 +880,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -898,7 +920,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -937,7 +960,48 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
+   ], 
+   "enabled": true, 
+   "fx_version": "all", 
+   "locale": [
+    "en-US", 
+    "zh-CN", 
+    "es-ES", 
+    "de", 
+    "fr", 
+    "ru", 
+    "ar", 
+    "ko", 
+    "pt-PT", 
+    "vi", 
+    "pl", 
+    "tr", 
+    "ro", 
+    "ja"
+   ], 
+   "meta": "This test case checks that more search engines can be added and are well displayed on one-off searches bar.", 
+   "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\search_engine_can_be_added.py", 
+   "name": "search_engine_can_be_added", 
+   "package": "awesomebar", 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
+   "tags": "", 
+   "test_case_id": "108261", 
+   "test_suite_id": "1902"
+  }, 
+  {
+   "blocked_by": "", 
+   "channel": [
+    "beta", 
+    "release", 
+    "nightly", 
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -976,7 +1040,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1015,7 +1080,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1054,7 +1120,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -1089,7 +1156,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1128,7 +1196,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1167,7 +1236,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1208,7 +1278,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1247,7 +1318,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1286,7 +1358,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1325,7 +1398,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1364,7 +1438,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1403,7 +1478,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1442,7 +1518,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1481,7 +1558,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1520,7 +1598,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1559,7 +1638,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1598,7 +1678,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1637,7 +1718,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1676,7 +1758,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1715,7 +1798,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1754,7 +1838,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1793,7 +1878,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1832,7 +1918,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1871,7 +1958,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1910,7 +1998,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1949,7 +2038,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -1988,7 +2078,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2027,7 +2118,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2066,7 +2158,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "<=62", 
@@ -2105,7 +2198,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2144,7 +2238,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2183,7 +2278,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2222,7 +2318,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2261,7 +2358,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2300,7 +2398,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2339,7 +2438,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2378,7 +2478,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2417,7 +2518,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -2456,7 +2558,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2491,7 +2594,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2528,7 +2632,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2563,7 +2668,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2598,7 +2704,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2633,7 +2740,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2668,7 +2776,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2703,7 +2812,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2738,7 +2848,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": ">=62", 
@@ -2773,7 +2884,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2808,7 +2920,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2843,7 +2956,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2878,7 +2992,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2913,7 +3028,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2948,7 +3064,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -2983,7 +3100,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -3018,7 +3136,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -3055,7 +3174,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3094,7 +3214,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3133,7 +3254,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3172,7 +3294,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3211,7 +3334,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3250,7 +3374,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3289,7 +3414,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3328,7 +3454,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3367,7 +3494,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3406,7 +3534,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3445,7 +3574,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3484,7 +3614,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3523,7 +3654,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3562,7 +3694,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3601,7 +3734,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3640,7 +3774,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3679,7 +3814,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3718,7 +3854,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3757,7 +3894,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3796,7 +3934,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3835,7 +3974,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3874,7 +4014,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3913,7 +4054,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3952,7 +4094,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -3991,7 +4134,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4030,7 +4174,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4069,7 +4214,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4108,7 +4254,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4147,7 +4294,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4186,7 +4334,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4225,7 +4374,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4264,7 +4414,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4303,7 +4454,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4342,7 +4494,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4381,7 +4534,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4420,7 +4574,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4459,7 +4614,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4498,7 +4654,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4537,7 +4694,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4578,7 +4736,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4617,9 +4776,10 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
-   "enabled": false, 
+   "enabled": true, 
    "fx_version": "all", 
    "locale": [
     "en-US", 
@@ -4637,13 +4797,17 @@
     "ro", 
     "ja"
    ], 
-   "meta": "This is a test case that checks that Browser Control Console work as expected", 
+   "meta": "This is a test case that checks that Browser Control Console work as expected.", 
    "module": "c:\\github\\iris\\iris\\tests\\toolbars_window_controls\\browser_control_console.py", 
    "name": "browser_control_console", 
    "package": "toolbars_window_controls", 
-   "platform": [], 
+   "platform": [
+    "linux", 
+    "osx", 
+    "win"
+   ], 
    "tags": "", 
-   "test_case_id": "119481", 
+   "test_case_id": "120464", 
    "test_suite_id": "1998"
   }, 
   {
@@ -4652,7 +4816,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4691,7 +4856,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4730,7 +4896,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4769,7 +4936,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4807,7 +4975,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4846,7 +5015,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4885,7 +5055,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4924,7 +5095,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -4963,7 +5135,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5002,7 +5175,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5041,7 +5215,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5080,7 +5255,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5117,7 +5293,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5156,7 +5333,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5195,7 +5373,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5234,7 +5413,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5269,7 +5449,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5310,7 +5491,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5345,7 +5527,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5382,7 +5565,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5417,7 +5601,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5452,7 +5637,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5487,7 +5673,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5522,7 +5709,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5557,7 +5745,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5592,7 +5781,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5627,7 +5817,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5662,7 +5853,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5697,7 +5889,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5732,7 +5925,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": false, 
    "fx_version": "all", 
@@ -5769,7 +5963,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5808,7 +6003,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5847,7 +6043,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5886,7 +6083,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5925,7 +6123,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -5964,7 +6163,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6003,7 +6203,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6042,7 +6243,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6081,7 +6283,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6120,7 +6323,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6159,7 +6363,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6198,7 +6403,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6237,7 +6443,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6276,7 +6483,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6315,7 +6523,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6354,7 +6563,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6393,7 +6603,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6432,7 +6643,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6471,7 +6683,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6510,7 +6723,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6549,7 +6763,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6588,7 +6803,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6627,7 +6843,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6666,7 +6883,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
@@ -6705,7 +6923,8 @@
     "beta", 
     "release", 
     "nightly", 
-    "esr"
+    "esr", 
+    "dev"
    ], 
    "enabled": true, 
    "fx_version": "all", 
