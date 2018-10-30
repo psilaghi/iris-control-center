@@ -2,7 +2,7 @@ import * as React from 'react';
 
 class Checkbox extends React.Component {
   handleChange = (event) => {
-    this.props.onChange(event.target.name, event.target.checked ? true : false);
+    event.target.name? this.props.onChange(event.target.name, event.target.checked ? true : false) : this.props.onChange(event.target.checked ? true : false);
   }
 
   render() {

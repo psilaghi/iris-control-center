@@ -1,0 +1,49 @@
+2018-11-01 11:27:02,622 [INFO] [iris.local_web_server] Serving HTTP on 127.0.0.1 port 2000.
+2018-11-01 11:27:29,197 [INFO] [mozdownload.scraper] Retrieving list of candidate builds from https://archive.mozilla.org/pub/firefox/candidates/64.0b5-candidates/
+2018-11-01 11:27:29,243 [INFO] [mozdownload.scraper] Found 1 build: build1
+2018-11-01 11:27:29,246 [INFO] [mozdownload.scraper] Selected build: build1
+2018-11-01 11:27:29,296 [INFO] [mozdownload.scraper] File has already been downloaded: C:\Users\paul.silaghi\.iris\cache\firefox-64.0b5-build1.en-US.win64.exe
+2018-11-01 11:27:34,420 [INFO] [mozdownload.scraper] Retrieving list of candidate builds from https://archive.mozilla.org/pub/firefox/candidates/64.0b5-candidates/
+2018-11-01 11:27:34,473 [INFO] [mozdownload.scraper] Found 1 build: build1
+2018-11-01 11:27:34,476 [INFO] [mozdownload.scraper] Selected build: build1
+2018-11-01 11:27:34,536 [INFO] [iris.__main__] Latest available version for beta channel is: 64.0b5
+2018-11-01 11:27:34,654 [INFO] [iris.test_runner] Running tests
+2018-11-01 11:27:34,657 [INFO] [iris.test_runner] 
+------------------------------------------------------------------------------------------------------------------------
+2018-11-01 11:27:34,663 [INFO] [iris.test_runner] Executing: 1 - [alt_up_down_keys_in_awesomebar]: Alt+UP/DOWN Keys - in the Awesome Bar.
+2018-11-01 11:28:25,644 [SUCCESS] [iris.api.helpers.results] Step: 'Wikipedia' is the first one-off in focus when navigating with 'ALT' and arrow UP keys., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,648 [SUCCESS] [iris.api.helpers.results] Step: Settings gear icon is not in focus., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,654 [SUCCESS] [iris.api.helpers.results] Step: 'Wikipedia' is the one-off in focus., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,657 [SUCCESS] [iris.api.helpers.results] Step: 'Google' is the first one-off in focus when navigating with 'ALT' and arrow DOWN keys., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,663 [SUCCESS] [iris.api.helpers.results] Step: Settings gear icon is not in focus., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,667 [SUCCESS] [iris.api.helpers.results] Step: 'Google' is the one-off in focus., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,671 [SUCCESS] [iris.api.helpers.results] Step: 'Google' is the first one-off in focus when navigating with 'ALT' and arrow DOWN keys., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,677 [SUCCESS] [iris.api.helpers.results] Step: 'Google' is the one-off in focus., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,680 [SUCCESS] [iris.api.helpers.results] Step: 'Wikipedia' is the one-off in focus., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,686 [SUCCESS] [iris.api.helpers.results] Step: Previously autocomplete result in focus is still highlighted after navigating backand forth using the 'ALT' and arrow UP/DOWN keys., outcome: >>> PASSED <<<
+2018-11-01 11:28:25,691 [INFO] [iris.api.helpers.results] [alt_up_down_keys_in_awesomebar] - >>> PASSED <<< (Finished in 48.37 second(s))
+
+2018-11-01 11:28:25,710 [INFO] [iris.test_runner] 
+------------------------------------------------------------------------------------------------------------------------
+2018-11-01 11:28:25,717 [INFO] [iris.test_runner] Executing: 2 - [bookmark_from_private_browsing]: Websites can be bookmarked from private browsing.
+2018-11-01 11:28:54,578 [SUCCESS] [iris.api.helpers.results] Step: Privacy page has been accessed., outcome: >>> PASSED <<<
+2018-11-01 11:28:54,582 [SUCCESS] [iris.api.helpers.results] Step: History option can be changed., outcome: >>> PASSED <<<
+2018-11-01 11:28:54,586 [SUCCESS] [iris.api.helpers.results] Step: Mozilla page loaded successfully., outcome: >>> PASSED <<<
+2018-11-01 11:28:54,594 [SUCCESS] [iris.api.helpers.results] Step: The page was successfully bookmarked via star button., outcome: >>> PASSED <<<
+2018-11-01 11:28:54,602 [INFO] [iris.api.helpers.results] [bookmark_from_private_browsing] - >>> PASSED <<< (Finished in 26.48 second(s))
+
+2018-11-01 11:28:54,615 [INFO] [iris.test_runner] 
+------------------------------------------------------------------------------------------------------------------------
+2018-11-01 11:28:54,619 [INFO] [iris.test_runner] Executing: 3 - [clear_all_history]: Clear all the History.
+2018-11-01 11:29:18,634 [SUCCESS] [iris.api.helpers.results] Step: Mozilla page loaded successfully., outcome: >>> PASSED <<<
+2018-11-01 11:29:18,638 [SUCCESS] [iris.api.helpers.results] Step: Firefox page loaded successfully., outcome: >>> PASSED <<<
+2018-11-01 11:29:18,642 [SUCCESS] [iris.api.helpers.results] Step: Clear Recent History window was displayed properly., outcome: >>> PASSED <<<
+2018-11-01 11:29:18,647 [SUCCESS] [iris.api.helpers.results] Step: All the history was cleared successfully., outcome: >>> PASSED <<<
+2018-11-01 11:29:18,651 [INFO] [iris.api.helpers.results] [clear_all_history] - >>> PASSED <<< (Finished in 21.4 second(s))
+
+2018-11-01 11:29:18,658 [INFO] [iris.api.helpers.results] 
+------------------------------------------------------------------------------------------------------------------------
+Platform: win, Firefox Version: 64.0, Firefox Build: 20181029164536
+Passed: 3, Failed: 0, Skipped: 0, Errors: 0 -- Total: 3                                      Total time: 104.0 second(s)
+------------------------------------------------------------------------------------------------------------------------
+

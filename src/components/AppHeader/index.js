@@ -11,15 +11,6 @@ function AppHeader(props) {
     <header>
       <nav>
         <StyledH1>Iris Control Center</StyledH1>
-        {/* <ul>
-          <li>
-            <NavLink to="/runs">Runs</NavLink>      
-          </li>
-
-          <li>
-            <NavLink to="/runs/new">New Run</NavLink>      
-          </li>
-        </ul> */}
       </nav>
     </header>
   );

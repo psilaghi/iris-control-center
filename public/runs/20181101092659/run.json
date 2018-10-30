@@ -1,0 +1,382 @@
+{
+ "meta": {
+  "args": "C:\\Users\\paul.silaghi\\.virtualenvs\\iris-DBojdd3p\\Scripts\\iris", 
+  "channel": "beta", 
+  "config": "10.0, 64-bit, x86_64", 
+  "end_time": 1541064558, 
+  "errors": 0, 
+  "failed": 0, 
+  "failed_tests": {}, 
+  "fx_build_id": "20181029164536", 
+  "fx_version": "64.0", 
+  "iris_branch": "dev", 
+  "iris_branch_head": "66527dd6f4d22379ebb54176186caa8c03616ca7", 
+  "iris_repo": "c:\\github\\iris", 
+  "iris_version": 1.0, 
+  "locale": "en-US", 
+  "log": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092659\\iris_log.log", 
+  "params": {
+   "clear": false, 
+   "control": false, 
+   "directory": "c:\\github\\iris\\iris\\tests", 
+   "email": false, 
+   "exclude": null, 
+   "firefox": "latest-beta", 
+   "highlight": false, 
+   "image_debug": false, 
+   "level": 20, 
+   "locale": "en-US", 
+   "mouse": 0.5, 
+   "no_check": false, 
+   "override": false, 
+   "port": 2000, 
+   "report": false, 
+   "rerun": false, 
+   "resize": false, 
+   "save": false, 
+   "test": null, 
+   "workdir": "C:\\Users\\paul.silaghi\\.iris"
+  }, 
+  "passed": 3, 
+  "platform": "win", 
+  "run_id": "20181101092659", 
+  "skipped": 0, 
+  "start_time": 1541064454, 
+  "total": 3, 
+  "total_time": 104
+ }, 
+ "tests": {
+  "awesomebar": [
+   {
+    "asserts": [
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "'Wikipedia' is the first one-off in focus when navigating with 'ALT' and arrow UP keys.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Settings gear icon is not in focus.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "'Wikipedia' is the one-off in focus.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "'Google' is the first one-off in focus when navigating with 'ALT' and arrow DOWN keys.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Settings gear icon is not in focus.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "'Google' is the one-off in focus.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "'Google' is the first one-off in focus when navigating with 'ALT' and arrow DOWN keys.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "'Google' is the one-off in focus.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "'Wikipedia' is the one-off in focus.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Previously autocomplete result in focus is still highlighted after navigating backand forth using the 'ALT' and arrow UP/DOWN keys.", 
+      "outcome": "PASSED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092659\\awesomebar\\alt_up_down_keys_in_awesomebar\\debug_images", 
+    "debug_images": [
+     "2018_11_01_11_27_36_928000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_37_244000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_37_578000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_37_933000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_38_265000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_38_580000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_38_956000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_39_334000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_39_726000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_27_40_058000_confirm_firefox_launch.jpg", 
+     "2018_11_01_11_27_47_098000_alt_up_down_keys_in_awesomebar.jpg", 
+     "2018_11_01_11_27_47_333000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_47_599000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_47_886000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_48_149000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_48_416000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_48_667000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_48_938000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_49_205000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_49_488000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_49_756000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_50_029000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_50_289000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_54_026000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_54_210000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_54_392000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_54_576000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_54_759000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_54_943000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_55_129000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_55_311000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_55_495000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_55_679000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_55_862000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_56_053000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_56_237000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_56_413000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_56_596000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_56_777000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_56_961000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_57_132000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_57_316000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_57_498000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_57_682000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_57_866000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_58_053000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_58_234000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_58_417000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_58_601000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_58_788000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_58_982000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_27_59_161000_alt_up_down_keys_in_awesomebar.jpg", 
+     "2018_11_01_11_28_04_453000_alt_up_down_keys_in_awesomebar.jpg", 
+     "2018_11_01_11_28_08_125000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_08_308000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_08_494000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_08_679000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_08_862000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_09_043000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_09_230000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_09_411000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_09_597000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_09_781000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_09_965000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_10_153000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_10_334000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_10_518000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_10_703000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_10_899000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_11_081000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_11_267000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_11_450000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_11_633000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_11_817000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_12_183000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_12_369000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_12_552000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_12_736000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_12_919000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_12_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_13_102000_alt_up_down_keys_in_awesomebar_not_found.jpg", 
+     "2018_11_01_11_28_13_286000_alt_up_down_keys_in_awesomebar.jpg", 
+     "2018_11_01_11_28_17_966000_alt_up_down_keys_in_awesomebar.jpg", 
+     "2018_11_01_11_28_21_658000_alt_up_down_keys_in_awesomebar.jpg", 
+     "2018_11_01_11_28_22_835000_alt_up_down_keys_in_awesomebar.jpg", 
+     "2018_11_01_11_28_22_994000_alt_up_down_keys_in_awesomebar.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092659\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=1&total=3&title=alt_up_down_keys_in_awesomebar,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_fywtsq\\awesomebar_alt_up_down_keys_in_awesomebar", 
+    "meta": "Alt+UP/DOWN Keys - in the Awesome Bar.", 
+    "module": "c:\\github\\iris\\iris\\tests\\awesomebar\\alt_up_down_keys_in_awesomebar.py", 
+    "name": "alt_up_down_keys_in_awesomebar", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_fywtsq\\awesomebar_alt_up_down_keys_in_awesomebar", 
+    "result": "PASSED", 
+    "time": 48
+   }
+  ], 
+  "bookmark": [
+   {
+    "asserts": [
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Privacy page has been accessed.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "History option can be changed.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Mozilla page loaded successfully.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "The page was successfully bookmarked via star button.", 
+      "outcome": "PASSED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092659\\bookmark\\bookmark_from_private_browsing\\debug_images", 
+    "debug_images": [
+     "2018_11_01_11_28_28_032000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_28_387000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_28_717000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_29_049000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_29_425000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_29_861000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_30_242000_confirm_firefox_launch.jpg", 
+     "2018_11_01_11_28_34_746000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_35_036000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_35_307000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_36_254000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_36_483000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_37_469000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_37_706000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_38_733000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_38_997000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_39_263000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_40_284000_wait_for_firefox_restart_not_found.jpg", 
+     "2018_11_01_11_28_40_568000_wait_for_firefox_restart_not_found.jpg", 
+     "2018_11_01_11_28_40_850000_wait_for_firefox_restart_not_found.jpg", 
+     "2018_11_01_11_28_41_181000_wait_for_firefox_restart_not_found.jpg", 
+     "2018_11_01_11_28_41_473000_wait_for_firefox_restart_not_found.jpg", 
+     "2018_11_01_11_28_41_798000_wait_for_firefox_restart.jpg", 
+     "2018_11_01_11_28_44_594000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_44_907000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_45_210000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_45_526000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_45_824000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_46_127000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_46_428000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_46_729000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_47_021000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_47_330000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_47_632000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_47_934000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_48_251000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_48_551000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_48_856000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_49_152000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_49_470000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_49_770000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_50_085000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_50_382000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_50_607000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_50_826000_bookmark_from_private_browsing.jpg", 
+     "2018_11_01_11_28_51_856000_bookmark_from_private_browsing_not_found.jpg", 
+     "2018_11_01_11_28_52_145000_bookmark_from_private_browsing.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092659\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=2&total=3&title=bookmark_from_private_browsing,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_fywtsq\\bookmark_bookmark_from_private_browsing", 
+    "meta": "Websites can be bookmarked from private browsing.", 
+    "module": "c:\\github\\iris\\iris\\tests\\bookmark\\bookmark_from_private_browsing.py", 
+    "name": "bookmark_from_private_browsing", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_fywtsq\\bookmark_bookmark_from_private_browsing", 
+    "result": "PASSED", 
+    "time": 26
+   }
+  ], 
+  "history": [
+   {
+    "asserts": [
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Mozilla page loaded successfully.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Firefox page loaded successfully.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "Clear Recent History window was displayed properly.", 
+      "outcome": "PASSED"
+     }, 
+     {
+      "actual": true, 
+      "error": null, 
+      "expected": true, 
+      "message": "All the history was cleared successfully.", 
+      "outcome": "PASSED"
+     }
+    ], 
+    "debug_image_directory": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092659\\history\\clear_all_history\\debug_images", 
+    "debug_images": [
+     "2018_11_01_11_28_56_961000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_57_327000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_57_654000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_58_001000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_58_352000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_58_780000_confirm_firefox_launch_not_found.jpg", 
+     "2018_11_01_11_28_59_124000_confirm_firefox_launch.jpg", 
+     "2018_11_01_11_29_04_837000_clear_all_history.jpg", 
+     "2018_11_01_11_29_08_835000_clear_all_history_not_found.jpg", 
+     "2018_11_01_11_29_09_137000_clear_all_history.jpg", 
+     "2018_11_01_11_29_11_191000_clear_all_history.jpg", 
+     "2018_11_01_11_29_14_949000_restore_firefox_focus.jpg", 
+     "2018_11_01_11_29_15_967000_clear_all_history.jpg"
+    ], 
+    "fx_args": "C:\\Users\\paul.silaghi\\.iris\\runs\\20181101092659\\firefox-64\\core\\firefox.exe,-no-remote,-new-tab,http://127.0.0.1:2000?current=3&total=3&title=clear_all_history,--wait-for-browser,-foreground,-profile,c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_fywtsq\\history_clear_all_history", 
+    "meta": "Clear all the History.", 
+    "module": "c:\\github\\iris\\iris\\tests\\history\\clear_all_history.py", 
+    "name": "clear_all_history", 
+    "prefs": {
+     "iris.enabled": true
+    }, 
+    "profile": "like_new", 
+    "profile_path": "c:\\users\\paul~1.sil\\appdata\\local\\temp\\iris_fywtsq\\history_clear_all_history", 
+    "result": "PASSED", 
+    "time": 21
+   }
+  ]
+ }
+}
