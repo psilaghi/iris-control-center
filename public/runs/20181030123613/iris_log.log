@@ -1,0 +1,24 @@
+2018-10-30 14:36:16,617 [INFO] [iris.local_web_server] Serving HTTP on 127.0.0.1 port 2000.
+2018-10-30 14:36:37,805 [INFO] [mozdownload.scraper] Retrieving list of candidate builds from https://archive.mozilla.org/pub/firefox/candidates/64.0b5-candidates/
+2018-10-30 14:36:37,852 [INFO] [mozdownload.scraper] Found 1 build: build1
+2018-10-30 14:36:37,855 [INFO] [mozdownload.scraper] Selected build: build1
+2018-10-30 14:36:37,905 [INFO] [mozdownload.scraper] File has already been downloaded: C:\Users\paul.silaghi\.iris\cache\firefox-64.0b5-build1.en-US.win64.exe
+2018-10-30 14:36:43,332 [INFO] [mozdownload.scraper] Retrieving list of candidate builds from https://archive.mozilla.org/pub/firefox/candidates/64.0b5-candidates/
+2018-10-30 14:36:43,388 [INFO] [mozdownload.scraper] Found 1 build: build1
+2018-10-30 14:36:43,391 [INFO] [mozdownload.scraper] Selected build: build1
+2018-10-30 14:36:43,447 [INFO] [iris.__main__] Latest available version for beta channel is: 64.0b5
+2018-10-30 14:36:43,563 [INFO] [iris.test_runner] Running tests
+2018-10-30 14:36:43,566 [INFO] [iris.test_runner] 
+------------------------------------------------------------------------------------------------------------------------
+2018-10-30 14:36:43,572 [INFO] [iris.test_runner] Executing: 1 - [add_bookmark_tags_via_bookmark_sidebar]: Tags can be added to bookmarks using the Bookmarks Sidebar.
+2018-10-30 14:37:06,539 [SUCCESS] [iris.api.helpers.results] Step: Properties option is present on the page., outcome: >>> PASSED <<<
+2018-10-30 14:37:06,545 [SUCCESS] [iris.api.helpers.results] Step: Properties window is present on the page., outcome: >>> PASSED <<<
+2018-10-30 14:37:06,549 [SUCCESS] [iris.api.helpers.results] Step: Moz bookmark was successfully tagged via bookmark sidebar., outcome: >>> PASSED <<<
+2018-10-30 14:37:06,553 [INFO] [iris.api.helpers.results] [add_bookmark_tags_via_bookmark_sidebar] - >>> PASSED <<< (Finished in 20.63 second(s))
+
+2018-10-30 14:37:06,575 [INFO] [iris.api.helpers.results] 
+------------------------------------------------------------------------------------------------------------------------
+Platform: win, Firefox Version: 64.0, Firefox Build: 20181029164536
+Passed: 1, Failed: 0, Skipped: 0, Errors: 0 -- Total: 1                                      Total time: 23.01 second(s)
+------------------------------------------------------------------------------------------------------------------------
+

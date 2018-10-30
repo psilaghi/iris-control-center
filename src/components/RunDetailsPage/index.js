@@ -10,7 +10,7 @@ class RunDetailsPage extends React.Component {
   }
 
   componentDidMount() {
-    ApiClient.get(`/data/${this.props.match.params.id}/run.json`).then(response => this.setState({details: response}));
+    ApiClient.get(`/runs/${this.props.match.params.id}/run.json`).then(response => this.setState({details: response}));
   }
 
   render() {

@@ -77,13 +77,18 @@ class RunsPage extends React.Component {
   render() {
     return (
       <div className="page">
-        <h4>Iris runs:</h4>
+        <h4>Runs:</h4>
         <ReactTable
           data={this.state.runs}
           columns={this._getColumns()}
-          defaultPageSize={10}
           className="-striped -highlight"
           defaultPageSize={5}
+          defaultSorted={[
+            {
+              id: "ID",
+              desc: true
+            }
+          ]}
         />
       </div>
     )
