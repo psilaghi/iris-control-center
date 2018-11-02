@@ -47,6 +47,8 @@ class RunDetailsPage extends React.Component {
                 ))}
               </ul>
             </div>
+            <br />
+            <hr />
           </div>
         )}
         {Object.keys(this.state.details).map(detail => (
