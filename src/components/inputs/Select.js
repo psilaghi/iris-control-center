@@ -7,7 +7,6 @@ const StyledSelect = styled(ReactSelect)``;
 
 class Select extends React.Component {
   handleChange = (value) => {
-    // Guard react select bug, https://github.com/JedWatson/react-select/issues/2682
     if (!this.props.isMulti && Array.isArray(value) && value.length === 0) {
       value = null;
     }

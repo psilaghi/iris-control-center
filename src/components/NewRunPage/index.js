@@ -3,14 +3,12 @@ import ApiClient from '../apiClient';
 import './style.css';
 import {
   Checkbox,
-  Input,
   Select
 } from '../inputs';
 import TestCategory from '../TestCategory';
 
 const DropdownItems = [
  'firefox',
-//  'level',
  'locale',
  'mouse'
 ];
@@ -132,15 +130,6 @@ class NewRunPage extends React.Component {
                 />
               )
             )}
-
-            {/* {this.state.args.port && (
-              <Input
-                label={this.state.args.port.label}
-                name="port"
-                value={this.state.newRun.port}
-                onChange={this.handleChange}
-              />
-            )} */}
           </div>
 
           <div className="grid-right">
