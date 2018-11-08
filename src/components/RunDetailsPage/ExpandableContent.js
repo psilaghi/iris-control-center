@@ -8,14 +8,6 @@ const StyledSpan=styled.span`
   line-height: 30px;
 `;
 
-// const isCategoryWithFailingTest = (categoryData) => {
-//   if (!Array.isArray(categoryData)) {
-//     return false;
-//   }
-//   const failedTest = categoryData.find (item => item['result'] === 'FAILED');
-//   return failedTest !== undefined ? true : false;
-// }
-
 const isCategoryWithFailingTest = (categoryName, failingCategories =[]) => {
   return failingCategories.includes(categoryName)
 }

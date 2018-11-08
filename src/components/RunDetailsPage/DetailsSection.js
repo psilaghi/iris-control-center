@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Collapse, CardBody, Card } from 'reactstrap';
+import { Collapse, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
@@ -44,12 +44,12 @@ class DetailsSection extends React.Component {
    
     if(showCarousel){
       var new_path = path.replace(/\\/gi, '/')+'/';
-      var new_path2 = new_path.substring(new_path.indexOf('/runs'), new_path.length);
+      var final_path = new_path.substring(new_path.indexOf('/runs'), new_path.length);
 
-      data.map(item => {
+      data.forEach(item => {
         images.push({
-          original: new_path2+item,
-          thumbnail: new_path2+item,
+          original: final_path+item,
+          thumbnail: final_path+item,
         });
       });
     }
